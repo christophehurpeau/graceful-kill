@@ -1,5 +1,7 @@
 # graceful-kill [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/graceful-kill.svg)](https://greenkeeper.io/)
+
 gracefully kills a spawn process
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
