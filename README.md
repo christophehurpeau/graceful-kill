@@ -14,9 +14,17 @@ npm install --save graceful-kill
 ## Usage
 
 ```js
+import { spawn } from 'child_process';
 import gracefulKill from 'graceful-kill';
 
-console.log(gracefulKill);
+
+const process = spawn('sleep', [99999]);
+
+process.on('SIGINT', () => {
+  gracefulKill(process).then(() => {
+    process.exit(0);
+  });
+});
 ```
 
 [npm-image]: https://img.shields.io/npm/v/graceful-kill.svg?style=flat-square
