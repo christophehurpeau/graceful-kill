@@ -38,7 +38,7 @@
     ]
   },
   "dependencies": {
-    "flow-runtime": "^0.10.0",
+    "flow-runtime": "^0.14.0",
     "nightingale-logger": "^3.4.0"
   },
   "devDependencies": {
