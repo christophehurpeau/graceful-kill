@@ -15,6 +15,10 @@ var logger = new _nightingaleLogger2.default('graceful-kill');
 exports.default = function (process) {
   var SIGTERMTimeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4000;
   return new Promise(function (resolve) {
+    if (process.exitCode !== null || process.signalCode !== null) {
+      logger.warn('process already exited');
+      return resolve();
+    }
     var killTimeout = setTimeout(function () {
       logger.warn('timeout: sending SIGKILL...');
       process.kill('SIGKILL');

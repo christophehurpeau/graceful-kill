@@ -13,6 +13,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const logger = new _nightingaleLogger2.default('graceful-kill');
 
 exports.default = (process, SIGTERMTimeout = 4000) => new Promise(resolve => {
+  if (process.exitCode !== null || process.signalCode !== null) {
+    logger.warn('process already exited');
+    return resolve();
+  }
   const killTimeout = setTimeout(() => {
     logger.warn('timeout: sending SIGKILL...');
     process.kill('SIGKILL');

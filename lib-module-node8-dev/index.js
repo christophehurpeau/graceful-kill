@@ -8,6 +8,10 @@ export default (function index(process, SIGTERMTimeout = 4000) {
 
   t.param('SIGTERMTimeout', _SIGTERMTimeoutType).assert(SIGTERMTimeout);
   return new Promise(resolve => {
+    if (process.exitCode !== null || process.signalCode !== null) {
+      logger.warn('process already exited');
+      return resolve();
+    }
     const killTimeout = setTimeout(() => {
       logger.warn('timeout: sending SIGKILL...');
       process.kill('SIGKILL');

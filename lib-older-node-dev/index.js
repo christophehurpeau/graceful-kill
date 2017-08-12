@@ -24,6 +24,10 @@ exports.default = function index(process) {
   _flowRuntime2.default.param('SIGTERMTimeout', _SIGTERMTimeoutType).assert(SIGTERMTimeout);
 
   return new Promise(function (resolve) {
+    if (process.exitCode !== null || process.signalCode !== null) {
+      logger.warn('process already exited');
+      return resolve();
+    }
     var killTimeout = setTimeout(function () {
       logger.warn('timeout: sending SIGKILL...');
       process.kill('SIGKILL');

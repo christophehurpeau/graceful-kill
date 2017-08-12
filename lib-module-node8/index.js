@@ -3,6 +3,10 @@ import Logger from 'nightingale-logger';
 const logger = new Logger('graceful-kill');
 
 export default ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
+  if (process.exitCode !== null || process.signalCode !== null) {
+    logger.warn('process already exited');
+    return resolve();
+  }
   const killTimeout = setTimeout(() => {
     logger.warn('timeout: sending SIGKILL...');
     process.kill('SIGKILL');
