@@ -16,17 +16,22 @@ exports.default = function (process) {
   var SIGTERMTimeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4000;
   return new Promise(function (resolve) {
     if (process.exitCode !== null || process.signalCode !== null) {
-      logger.warn('process already exited');
+      logger.warn('process already exited', { pid: process.pid });
       return resolve();
     }
     var killTimeout = setTimeout(function () {
-      logger.warn('timeout: sending SIGKILL...');
+      if (process.exitCode !== null || process.signalCode !== null) {
+        logger.warn('kill timeout: process already exited', { pid: process.pid });
+        return resolve();
+      }
+
+      logger.warn('kill timeout: sending SIGKILL...', { pid: process.pid });
       process.kill('SIGKILL');
     }, SIGTERMTimeout);
 
     process.removeAllListeners();
     process.once('exit', function (code, signal) {
-      logger.info('stopped', { code, signal });
+      logger.info('stopped', { pid: process.pid, code, signal });
       if (killTimeout) clearTimeout(killTimeout);
       resolve();
     });

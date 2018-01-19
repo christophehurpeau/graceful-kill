@@ -2,8 +2,8 @@
 
 gracefully kills a spawn process
 
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
+[![Dependency ci Status][dependencyci-image]][dependencyci-url]
 
 ## Install
 

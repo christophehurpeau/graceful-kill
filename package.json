@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
-  "repository": "git@github.com:christophehurpeau/undefined.git",
+  "repository": "git@github.com:christophehurpeau/graceful-kill.git",
   "homepage": "https://github.com/christophehurpeau/graceful-kill",
   "main": "./index.js",
   "module:node": "./lib-module-node8/index.js",
@@ -38,27 +38,26 @@
     ]
   },
   "dependencies": {
-    "flow-runtime": "^0.10.0",
+    "flow-runtime": "^0.16.0",
     "nightingale-logger": "^3.4.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-latest-node": "^0.3.1",
-    "eslint": "^4.3.0",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-config-pob": "^14.1.2",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-flowtype": "^2.35.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.1.2",
+    "babel-eslint": "^7.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest-node": "^0.4.0",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-config-pob": "^17.0.0",
+    "eslint-config-prettier": "^2.8.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
     "husky": "^0.14.3",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
-    "lint-staged": "^4.0.2",
-    "pob-babel": "^17.6.0",
+    "lint-staged": "^6.0.0",
+    "pob-babel": "^18.1.5",
     "pob-release": "^3.1.0",
-    "prettier": "^1.5.3"
+    "prettier": "^1.8.2"
   }
 }
