@@ -1,3 +1,12 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.0.1...v1.1.0) (2018-01-19)
+
+
+### Features
+
+* add pid in logger ([2aa8b5f](https://github.com/christophehurpeau/graceful-kill/commit/2aa8b5f))
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/christophehurpeau/undefined/compare/v1.0.0...v1.0.1) (2017-08-12)
 
