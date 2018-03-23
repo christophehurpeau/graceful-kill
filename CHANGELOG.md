@@ -1,3 +1,12 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.1.0...v1.2.0) (2018-03-23)
+
+
+### Features
+
+* nightingale-logger@4 ([f278fac](https://github.com/christophehurpeau/graceful-kill/commit/f278fac))
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.0.1...v1.1.0) (2018-01-19)
 
