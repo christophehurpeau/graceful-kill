@@ -1,18 +1,12 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var _nightingaleLogger = require('nightingale-logger');
+var Logger = _interopDefault(require('nightingale-logger'));
 
-var _nightingaleLogger2 = _interopRequireDefault(_nightingaleLogger);
+var logger = new Logger('graceful-kill');
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var logger = new _nightingaleLogger2.default('graceful-kill');
-
-exports.default = function (process) {
+var index = (function (process) {
   var SIGTERMTimeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4000;
   return new Promise(function (resolve) {
     if (process.exitCode !== null || process.signalCode !== null) {
@@ -37,5 +31,7 @@ exports.default = function (process) {
     });
     process.kill();
   });
-};
-//# sourceMappingURL=index.js.map
+});
+
+module.exports = index;
+//# sourceMappingURL=index-node4.cjs.js.map

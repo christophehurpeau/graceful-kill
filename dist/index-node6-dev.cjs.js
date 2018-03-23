@@ -1,9 +1,13 @@
-import Logger from 'nightingale-logger';
+'use strict';
 
-import t from 'flow-runtime';
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Logger = _interopDefault(require('nightingale-logger'));
+var t = _interopDefault(require('flow-runtime'));
+
 const logger = new Logger('graceful-kill');
 
-export default (function index(process, SIGTERMTimeout = 4000) {
+var index = ((process, SIGTERMTimeout = 4000) => {
   let _SIGTERMTimeoutType = t.number();
 
   t.param('SIGTERMTimeout', _SIGTERMTimeoutType).assert(SIGTERMTimeout);
@@ -31,4 +35,6 @@ export default (function index(process, SIGTERMTimeout = 4000) {
     process.kill();
   });
 });
-//# sourceMappingURL=index.js.map
+
+module.exports = index;
+//# sourceMappingURL=index-node6-dev.cjs.js.map

@@ -1,9 +1,16 @@
-# graceful-kill [![NPM version][npm-image]][npm-url]
+<h3 align="center">
+  graceful-kill
+</h3>
 
-gracefully kills a spawn process
+<p align="center">
+  gracefully kills a spawn process
+</p>
 
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
+<p align="center">
+  <a href="https://npmjs.org/package/graceful-kill"><img src="https://img.shields.io/npm/v/graceful-kill.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/graceful-kill"><img src="https://david-dm.org/christophehurpeau/graceful-kill.svg?style=flat-square"></a>
+  <a href="https://dependencyci.com/github/christophehurpeau/graceful-kill"><img src="https://dependencyci.com/github/christophehurpeau/graceful-kill/badge?style=flat-square"></a>
+</p>
 
 ## Install
 
@@ -26,10 +33,3 @@ process.on('SIGINT', () => {
   });
 });
 ```
-
-[npm-image]: https://img.shields.io/npm/v/graceful-kill.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/graceful-kill
-[daviddm-image]: https://david-dm.org/christophehurpeau/graceful-kill.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/graceful-kill
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/graceful-kill/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/graceful-kill

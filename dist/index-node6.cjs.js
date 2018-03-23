@@ -1,8 +1,12 @@
-import Logger from 'nightingale-logger';
+'use strict';
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Logger = _interopDefault(require('nightingale-logger'));
 
 const logger = new Logger('graceful-kill');
 
-export default ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
+var index = ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
   if (process.exitCode !== null || process.signalCode !== null) {
     logger.warn('process already exited', { pid: process.pid });
     return resolve();
@@ -25,4 +29,6 @@ export default ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
   });
   process.kill();
 }));
-//# sourceMappingURL=index.js.map
+
+module.exports = index;
+//# sourceMappingURL=index-node6.cjs.js.map

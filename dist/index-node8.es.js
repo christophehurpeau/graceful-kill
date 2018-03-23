@@ -1,18 +1,8 @@
-'use strict';
+import Logger from 'nightingale-logger';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+const logger = new Logger('graceful-kill');
 
-var _nightingaleLogger = require('nightingale-logger');
-
-var _nightingaleLogger2 = _interopRequireDefault(_nightingaleLogger);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-const logger = new _nightingaleLogger2.default('graceful-kill');
-
-exports.default = (process, SIGTERMTimeout = 4000) => new Promise(resolve => {
+var index = ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
   if (process.exitCode !== null || process.signalCode !== null) {
     logger.warn('process already exited', { pid: process.pid });
     return resolve();
@@ -34,5 +24,7 @@ exports.default = (process, SIGTERMTimeout = 4000) => new Promise(resolve => {
     resolve();
   });
   process.kill();
-});
-//# sourceMappingURL=index.js.map
+}));
+
+export default index;
+//# sourceMappingURL=index-node8.es.js.map

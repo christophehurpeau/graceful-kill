@@ -1,28 +1,18 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var _nightingaleLogger = require('nightingale-logger');
+var Logger = _interopDefault(require('nightingale-logger'));
+var t = _interopDefault(require('flow-runtime'));
 
-var _nightingaleLogger2 = _interopRequireDefault(_nightingaleLogger);
+var logger = new Logger('graceful-kill');
 
-var _flowRuntime = require('flow-runtime');
-
-var _flowRuntime2 = _interopRequireDefault(_flowRuntime);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var logger = new _nightingaleLogger2.default('graceful-kill');
-
-exports.default = function index(process) {
+var index = (function (process) {
   var SIGTERMTimeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4000;
 
-  var _SIGTERMTimeoutType = _flowRuntime2.default.number();
+  var _SIGTERMTimeoutType = t.number();
 
-  _flowRuntime2.default.param('SIGTERMTimeout', _SIGTERMTimeoutType).assert(SIGTERMTimeout);
-
+  t.param('SIGTERMTimeout', _SIGTERMTimeoutType).assert(SIGTERMTimeout);
   return new Promise(function (resolve) {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', { pid: process.pid });
@@ -46,5 +36,7 @@ exports.default = function index(process) {
     });
     process.kill();
   });
-};
-//# sourceMappingURL=index.js.map
+});
+
+module.exports = index;
+//# sourceMappingURL=index-node4-dev.cjs.js.map
