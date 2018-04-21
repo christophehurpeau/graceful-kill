@@ -1,19 +1,22 @@
-'use strict';
+import { ChildProcess } from 'child_process';
+import Logger from 'nightingale-logger';
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+const logger = new Logger('graceful-kill');
 
-var Logger = _interopDefault(require('nightingale-logger'));
+declare module 'child_process' {
+  interface ChildProcess {
+    exitCode: number | null;
+    signalCode: string | null;
+  }
+}
 
-var logger = new Logger('graceful-kill');
-
-var index = (function (process) {
-  var SIGTERMTimeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4000;
-  return new Promise(function (resolve) {
+export default (process: ChildProcess, SIGTERMTimeout: number = 4000) =>
+  new Promise(resolve => {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', { pid: process.pid });
       return resolve();
     }
-    var killTimeout = setTimeout(function () {
+    const killTimeout = setTimeout(() => {
       if (process.exitCode !== null || process.signalCode !== null) {
         logger.warn('kill timeout: process already exited', { pid: process.pid });
         return resolve();
@@ -24,14 +27,10 @@ var index = (function (process) {
     }, SIGTERMTimeout);
 
     process.removeAllListeners();
-    process.once('exit', function (code, signal) {
+    process.once('exit', (code: number | null, signal: string | null) => {
       logger.info('stopped', { pid: process.pid, code, signal });
       if (killTimeout) clearTimeout(killTimeout);
       resolve();
     });
     process.kill();
   });
-});
-
-module.exports = index;
-//# sourceMappingURL=index-node4.cjs.js.map

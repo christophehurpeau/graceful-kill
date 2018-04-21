@@ -1,4 +1,10 @@
-import Logger from 'nightingale-logger';
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Logger = _interopDefault(require('nightingale-logger'));
 
 const logger = new Logger('graceful-kill');
 var index = ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
@@ -35,5 +41,5 @@ var index = ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
   process.kill();
 }));
 
-export default index;
-//# sourceMappingURL=index-node8.es.js.map
+exports.default = index;
+//# sourceMappingURL=index-node10.cjs.js.map
