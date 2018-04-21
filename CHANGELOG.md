@@ -1,3 +1,7 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.2.0...v1.3.0) (2018-04-21)
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.1.0...v1.2.0) (2018-03-23)
 
