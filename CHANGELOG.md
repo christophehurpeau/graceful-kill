@@ -1,3 +1,12 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.3.0...v1.4.0) (2018-11-17)
+
+
+### Features
+
+* update dependencies ([506eb9a](https://github.com/christophehurpeau/graceful-kill/commit/506eb9a))
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.2.0...v1.3.0) (2018-04-21)
 
