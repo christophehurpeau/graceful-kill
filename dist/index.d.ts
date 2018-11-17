@@ -7,3 +7,4 @@ declare module 'child_process' {
 }
 declare const _default: (process: ChildProcess, SIGTERMTimeout?: number) => Promise<{}>;
 export default _default;
+//# sourceMappingURL=index.d.ts.map

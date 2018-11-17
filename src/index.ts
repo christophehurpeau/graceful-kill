@@ -11,14 +11,16 @@ declare module 'child_process' {
 }
 
 export default (process: ChildProcess, SIGTERMTimeout: number = 4000) =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', { pid: process.pid });
       return resolve();
     }
     const killTimeout = setTimeout(() => {
       if (process.exitCode !== null || process.signalCode !== null) {
-        logger.warn('kill timeout: process already exited', { pid: process.pid });
+        logger.warn('kill timeout: process already exited', {
+          pid: process.pid,
+        });
         return resolve();
       }
 
