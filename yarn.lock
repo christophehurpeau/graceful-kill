@@ -3780,7 +3780,7 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
-pob-babel@^23.4.0:
+pob-babel@23.4.0:
   version "23.4.0"
   resolved "https://registry.yarnpkg.com/pob-babel/-/pob-babel-23.4.0.tgz#d268b6d527b76fb0157ee0160bb98086124cafd1"
   integrity sha512-jAVts8zwgT3hB6+jMu8REAajbKkO8s4FRnIy0V2WbqjTaClUrfzFeyHGrMlRJU/MzTfLPlWsCbzPjvSYbDriDA==
@@ -3793,7 +3793,7 @@ pob-babel@^23.4.0:
     rollup-plugin-babel "^4.0.3"
     rollup-plugin-node-resolve "^3.4.0"
 
-pob-release@^4.6.0:
+pob-release@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.6.0.tgz#a38e97233f69d0f6b28c1025c03362317f4bcac9"
   integrity sha512-X4yPCQ2b0IZpx1vbjfH9DwmjlBpnih6EDB1hf91TGnvocQdkdsRvV2MbMXnv1DXPM9rOw5qjnBIT1/Ss/z/DUA==
