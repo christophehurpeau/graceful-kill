@@ -75,7 +75,7 @@
     "husky": "1.2.0",
     "lint-staged": "8.1.0",
     "pob-babel": "23.4.0",
-    "pob-release": "4.6.0",
+    "pob-release": "4.6.1",
     "prettier": "1.15.2",
     "typescript": "3.1.6",
     "typescript-eslint-parser": "21.0.1",
