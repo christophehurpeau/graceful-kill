@@ -858,10 +858,10 @@ babel-plugin-minify-simplify@^0.5.0:
     babel-helper-is-nodes-equiv "^0.0.1"
     babel-helper-to-multiple-sequence-expressions "^0.5.0"
 
-babel-plugin-pob-babel@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-pob-babel/-/babel-plugin-pob-babel-0.6.0.tgz#38b3b3e7549da02e2f7c5cdb689549202063f397"
-  integrity sha512-ywqYR1UyF7DpHDB9uXLEHfuplS4uT0kvqTGWk/5bOXgwrBowaDjDxfZKWxVmSvreMh040H/B2JhX3yBdL0gsuQ==
+babel-plugin-pob-babel@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-pob-babel/-/babel-plugin-pob-babel-0.6.1.tgz#8ac5ffe59a4bfbe2e7b2dffd663d6845a13e89f0"
+  integrity sha512-FbIe1t/yAEGohbFJgEk9dDaaw3DTglj5dqJJMo5G5EL07BOTOgvRLNJgnCQzCkf0aPYjNbuto67/602YnJt3Zg==
 
 babel-plugin-transform-inline-consecutive-adds@^0.4.3:
   version "0.4.3"
@@ -919,10 +919,10 @@ babel-preset-optimizations@^1.6.0:
     babel-plugin-transform-inline-consecutive-adds "^0.4.3"
     babel-plugin-transform-undefined-to-void "^6.9.4"
 
-babel-preset-pob-env@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-pob-env/-/babel-preset-pob-env-2.9.0.tgz#1e029bff98d646d287cd966bb9ee951f45774a08"
-  integrity sha512-Tsgfzh936EJ1YZthsjWNc9wuhL5vH9Otn5LCaRQI4oaMpZrnyN5ujaCY26DygeEA9RnP50sBQpwHCKzKWEtiHw==
+babel-preset-pob-env@^2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-pob-env/-/babel-preset-pob-env-2.10.0.tgz#94aa62e514532323440568073d0dbb908abc4683"
+  integrity sha512-4esfkUkNZZAqPSzSzSgoQJytfsSlvqbTC244J6vj84O/32xmb5bsc6sK+/Ep336/8QoIsX8k6hDPr3nHGZGD/A==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.1.0"
     "@babel/plugin-proposal-export-default-from" "^7.0.0"
@@ -931,7 +931,7 @@ babel-preset-pob-env@^2.9.0:
     babel-plugin-discard-module-references "^1.1.2"
     babel-plugin-import-export-rename "^1.0.1"
     babel-plugin-minify-replace "^0.5.0"
-    babel-plugin-pob-babel "^0.6.0"
+    babel-plugin-pob-babel "^0.6.1"
     babel-plugin-transform-name-export-default "^1.0.0"
     babel-preset-optimizations "^1.6.0"
 
@@ -3780,15 +3780,15 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
-pob-babel@23.4.0:
-  version "23.4.0"
-  resolved "https://registry.yarnpkg.com/pob-babel/-/pob-babel-23.4.0.tgz#d268b6d527b76fb0157ee0160bb98086124cafd1"
-  integrity sha512-jAVts8zwgT3hB6+jMu8REAajbKkO8s4FRnIy0V2WbqjTaClUrfzFeyHGrMlRJU/MzTfLPlWsCbzPjvSYbDriDA==
+pob-babel@23.5.0:
+  version "23.5.0"
+  resolved "https://registry.yarnpkg.com/pob-babel/-/pob-babel-23.5.0.tgz#a5e1496e4dc799350f303e3fa0cdc9c9f4b7d5d6"
+  integrity sha512-nsVWXAobzrBtGjssynbPpI+cNqzA31nIg7MCrC11Sy0S4JaXcmAZOsTi5Xb8qPxcc6Gfr5ztLXBs+lVN6TyKdQ==
   dependencies:
     "@babel/preset-flow" "^7.0.0"
     babel-plugin-external-helpers "^6.22.0"
-    babel-preset-pob-env "^2.9.0"
-    rollup "^0.67.0"
+    babel-preset-pob-env "^2.10.0"
+    rollup "^0.67.3"
     rollup-config-external-dependencies "^0.1.0"
     rollup-plugin-babel "^4.0.3"
     rollup-plugin-node-resolve "^3.4.0"
@@ -4179,7 +4179,7 @@ rollup-pluginutils@^2.3.0:
     estree-walker "^0.5.2"
     micromatch "^2.3.11"
 
-rollup@^0.67.0:
+rollup@^0.67.3:
   version "0.67.3"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.67.3.tgz#55475b1b62c43220c3b4bd7edc5846233932f50b"
   integrity sha512-TyNQCz97rKuVVbsKUTXfwIjV7UljWyTVd7cTMuE+aqlQ7WJslkYF5QaYGjMLR2BlQtUOO5CAxSVnpQ55iYp5jg==
