@@ -36,4 +36,4 @@ var index = ((process, SIGTERMTimeout = 4000) => new Promise(resolve => {
 }));
 
 export default index;
-//# sourceMappingURL=index-node8.es.js.map
+//# sourceMappingURL=index-node10.es.js.map
