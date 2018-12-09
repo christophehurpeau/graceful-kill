@@ -1,3 +1,10 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.4.0...v2.0.0) (2018-12-09)
+
+Update dependencies
+Drop node 6
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.3.0...v1.4.0) (2018-11-17)
 
