@@ -58,7 +58,7 @@
     "@commitlint/cli": "7.3.2",
     "@commitlint/config-conventional": "7.3.1",
     "babel-eslint": "10.0.1",
-    "babel-preset-latest-node": "3.0.1",
+    "babel-preset-latest-node": "3.2.1",
     "eslint": "5.12.1",
     "eslint-config-pob": "24.0.3",
     "eslint-plugin-babel": "5.3.0",
