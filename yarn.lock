@@ -714,11 +714,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
   integrity sha512-90hiq6/VqtQgX8Sp0EzeIsv3r+ellbGj4URKj5j30tLlZvRUpnAe9YbYnjl3pJM93GyXU0tghHhvXHq+5rnCKA==
 
-"@types/node@^10.12.12":
-  version "10.12.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.12.tgz#e15a9d034d9210f00320ef718a50c4a799417c47"
-  integrity sha512-Pr+6JRiKkfsFvmU/LK68oBRCQeEg36TyAbPhc2xpez24OOZZCuoIhWGTd39VZy6nGafSbxzGouFPTFD/rR1A0A==
-
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
@@ -2945,26 +2940,26 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-nightingale-levels@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/nightingale-levels/-/nightingale-levels-4.0.0.tgz#e30b4bb53afc5124f95a16c68784f8cfe056aac0"
-  integrity sha512-QvEs3MqIHrT4krBeorAEmeMyN0oqpq4P35JJiTPUWSG6kHtt41Nwd5UmBdPTdNf+FUXeQ6pZQvjr+61qVDQU/A==
+nightingale-levels@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/nightingale-levels/-/nightingale-levels-10.0.1.tgz#55c2bfb0b03e5b14ac263d5870173ecb851f6ee3"
+  integrity sha512-nnfOk+vLI37XhkKFMy8kWlUtNWipkXdOCr1iV0d0WHa8BuTxdtxx33hhoYSIB5+4WU2MdVYv/vrz557CHAxhVQ==
 
-nightingale-logger@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/nightingale-logger/-/nightingale-logger-6.0.0.tgz#01350b09cad62ba65e16c6e70b2cb84143f4ea1e"
-  integrity sha512-nQ+vzw/GqqzshXapw3IitiQi5qwhGySIz/Is7/WU/9qqf0HsvV0q/F/QfqhL2a8zg9jH7f/HaOx44F/RN0x4/A==
+nightingale-logger@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/nightingale-logger/-/nightingale-logger-10.0.1.tgz#0bd28d44e26be358900244fae0933692e9bae348"
+  integrity sha512-JI0CLfgKUjl4TCExNZhA3W29LueNdm7Kg/J0RGW5Mi6+ITwAR3Ntr8DdX/Qob6ov9snVSJVfYUXx+WUQBoqKSw==
   dependencies:
-    "@types/node" "^10.12.12"
-    nightingale-levels "^4.0.0"
-    nightingale-types "^2.0.0"
+    "@types/node" ">=10.0.0"
+    nightingale-levels "^10.0.1"
+    nightingale-types "^10.0.1"
 
-nightingale-types@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/nightingale-types/-/nightingale-types-2.0.0.tgz#31b3f50a40f0ca4991d9af2ecb5fe6ea26dcdf3e"
-  integrity sha512-MNy0/vAwxMxDSNWTzHIqL93JaRrX/hqovgu3SKrfqRC6agJVR80f09dknu/rsBJWCm7sb9He750jv3/mvTvfcQ==
+nightingale-types@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/nightingale-types/-/nightingale-types-10.0.1.tgz#4b6c365e473cdbba03b5527b0b1bfa7ac3dd72d1"
+  integrity sha512-xEmt/bLHqqUUxFqva8a3RkUUkbK4Br+Oq3uSCPsgeJPK7uaxYXMjdO8w8L0WHQ50QAuqMCzvvt+fmK4Jmak95w==
   dependencies:
-    nightingale-levels "^4.0.0"
+    nightingale-levels "^10.0.1"
 
 normalize-package-data@^2.3.0, normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.3.5, normalize-package-data@^2.5.0:
   version "2.5.0"
