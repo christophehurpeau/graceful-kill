@@ -3,15 +3,11 @@ import Logger from 'nightingale-logger';
 
 const logger = new Logger('graceful-kill');
 
-declare module 'child_process' {
-  interface ChildProcess {
-    exitCode: number | null;
-    signalCode: string | null;
-  }
-}
-
-export default (process: ChildProcess, SIGTERMTimeout: number = 4000) =>
-  new Promise((resolve) => {
+export default function gracefulKill(
+  process: ChildProcess,
+  SIGTERMTimeout = 4000,
+): Promise<void> {
+  return new Promise((resolve) => {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', { pid: process.pid });
       return resolve();
@@ -36,3 +32,4 @@ export default (process: ChildProcess, SIGTERMTimeout: number = 4000) =>
     });
     process.kill();
   });
+}

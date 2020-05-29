@@ -1,12 +1,13 @@
 /.circleci
+/.github
 /build
 /docs
 /examples
-/git-hooks
 /samples
 /test
 /tsconfig.json
 /tsconfig.build.json
+/dist/tsbuildinfo
 .babelrc
 .codeclimate.yml
 .yo-rc.json
