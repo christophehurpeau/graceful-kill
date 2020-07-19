@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/graceful-kill"><img src="https://img.shields.io/npm/v/graceful-kill.svg?style=flat-square"></a>
-  <a href="https://david-dm.org/christophehurpeau/graceful-kill"><img src="https://david-dm.org/christophehurpeau/graceful-kill.svg?style=flat-square"></a>
 </p>
 
 ## Install

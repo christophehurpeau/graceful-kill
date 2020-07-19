@@ -7,7 +7,10 @@
     },
     "pob-config": {
       "documentation": false,
-      "testing": false
+      "testing": {
+        "circleci": true,
+        "codecov": false
+      }
     },
     "project": {
       "type": "lib",
