@@ -73,7 +73,7 @@
     "jsx": false
   },
   "dependencies": {
-    "@types/node": ">=14.0.23",
+    "@types/node": ">=10.0.0",
     "nightingale-logger": "^10.0.1"
   },
   "devDependencies": {
@@ -96,7 +96,6 @@
     "eslint-plugin-unicorn": "18.0.1",
     "husky": "4.2.5",
     "jest": "26.1.0",
-    "jest-junit-reporter": "1.1.0",
     "pob-babel": "24.13.0",
     "pob-lcov-reporter": "2.4.0",
     "pob-release": "5.6.2",
