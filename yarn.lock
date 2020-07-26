@@ -856,13 +856,13 @@
     "@pob/use-eslint-plugin" "^38.2.0"
     eslint-plugin-node "^11.0.0"
 
-"@pob/eslint-config-typescript-node@38.2.0":
-  version "38.2.0"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-typescript-node/-/eslint-config-typescript-node-38.2.0.tgz#15d6e0d3e6155adcdd3d108c6163c90d9e4a9c7d"
-  integrity sha512-fXx5QJn1pNVJ634N9ZeNc1IdtEFlogOCSOlbIXNSia9OzD10iLuyF/0HO27eM+aMSHswnuGIFsK2fyEFi+puuw==
+"@pob/eslint-config-typescript-node@39.0.0":
+  version "39.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-typescript-node/-/eslint-config-typescript-node-39.0.0.tgz#27d7587546f1203707669c7d8f587c7bb2783102"
+  integrity sha512-uzRroJOBuSkxfDNxC4onZ9EsT3ImtR6SA6OeLHRxVu8LEveWG97hDQjHV/1PCaDEWQZu1AS3P4lIfiH5gBkcog==
   dependencies:
-    "@pob/use-eslint-plugin" "^38.2.0"
-    eslint-plugin-node "^11.0.0"
+    "@pob/use-eslint-plugin" "^39.0.0"
+    eslint-plugin-node "^11.1.0"
 
 "@pob/eslint-config-typescript@38.2.0":
   version "38.2.0"
@@ -905,6 +905,11 @@
   version "38.2.0"
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-38.2.0.tgz#5de15bfb6b1dfcf8cbf31810ba8f6e50d713f47c"
   integrity sha512-/5W+MQlajunaB6hip1AV9WI5dDnqKcKaWzEL1aEw1Vl9ex4lpAazrchnB3b4KNTPvYSg/9bjO3KttiOZmJZESQ==
+
+"@pob/use-eslint-plugin@^39.0.0":
+  version "39.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-39.0.0.tgz#07a54db38dee3ed7e78c7d9b4c40d741d2fbe077"
+  integrity sha512-VRNkbMzBVUiMPcwz5j2fHMgLP5WQ2ECDVikRoLOgJcJEfyqam0UD5fAZJGqNvLCdSyozZii10cv2JcEmyvORUw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -2481,7 +2486,7 @@ eslint-plugin-import@2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-node@11.1.0, eslint-plugin-node@^11.0.0:
+eslint-plugin-node@11.1.0, eslint-plugin-node@^11.0.0, eslint-plugin-node@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
   integrity sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==

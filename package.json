@@ -82,7 +82,7 @@
     "@pob/eslint-config": "38.2.0",
     "@pob/eslint-config-node": "38.2.0",
     "@pob/eslint-config-typescript": "38.2.0",
-    "@pob/eslint-config-typescript-node": "38.2.0",
+    "@pob/eslint-config-typescript-node": "39.0.0",
     "@pob/root": "2.2.2",
     "@types/jest": "26.0.5",
     "@typescript-eslint/eslint-plugin": "2.34.0",
