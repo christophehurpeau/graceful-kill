@@ -848,13 +848,13 @@
   dependencies:
     "@commitlint/config-conventional" "^8.3.4"
 
-"@pob/eslint-config-node@38.2.0":
-  version "38.2.0"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-38.2.0.tgz#910cb5daa00327517d2a2e2c56aea26874343f83"
-  integrity sha512-BpFsrd+RKPJ8z4Kh7ZioiJydsa5FcQiy0q+UnsYgv0MKiEVHV3FZrjbDALDdJ/DTiyFB55EA5oSJ+Qund41BiQ==
+"@pob/eslint-config-node@40.0.0":
+  version "40.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-40.0.0.tgz#bab3a4a7cb753e5face1e3e5c1736233b814f935"
+  integrity sha512-6psU8tLTBJ09Al/iIWRGSOs+9GFGiCqoqvH6rweJtol4wvdqWnex/zz/iVWXOZXhdaNfLwY5qgtZYT3xQyKMiw==
   dependencies:
-    "@pob/use-eslint-plugin" "^38.2.0"
-    eslint-plugin-node "^11.0.0"
+    "@pob/use-eslint-plugin" "^40.0.0"
+    eslint-plugin-node "^11.1.0"
 
 "@pob/eslint-config-typescript-node@38.2.0":
   version "38.2.0"
@@ -905,6 +905,11 @@
   version "38.2.0"
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-38.2.0.tgz#5de15bfb6b1dfcf8cbf31810ba8f6e50d713f47c"
   integrity sha512-/5W+MQlajunaB6hip1AV9WI5dDnqKcKaWzEL1aEw1Vl9ex4lpAazrchnB3b4KNTPvYSg/9bjO3KttiOZmJZESQ==
+
+"@pob/use-eslint-plugin@^40.0.0":
+  version "40.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-40.0.0.tgz#2d9395333319d5c2c4b13fa76efcff9698c71b57"
+  integrity sha512-GW+0R1N+yIcRxS4fM0wmzSO87PcURHhFajQNkxAPYwql6WCAqeNcOeZfZweUhpd+rt7yvTMoBbtjn7PV63wfEw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -2492,7 +2497,7 @@ eslint-plugin-import@2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-node@11.1.0, eslint-plugin-node@^11.0.0:
+eslint-plugin-node@11.1.0, eslint-plugin-node@^11.0.0, eslint-plugin-node@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
   integrity sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==
