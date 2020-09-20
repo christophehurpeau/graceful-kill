@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v3.0.1...v3.1.0) (2020-09-20)
+
+
+### Features
+
+* support node es format ([bfad0be](https://github.com/christophehurpeau/graceful-kill/commit/bfad0be9c39ac1f031ba2719091a425a4a860256))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v1.4.0...v2.0.0) (2018-12-09)
 
