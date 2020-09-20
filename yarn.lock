@@ -4368,7 +4368,7 @@ __metadata:
     pob-babel: 25.0.1
     pob-lcov-reporter: 3.0.0
     prettier: 2.1.2
-    rollup: ^2.27.1
+    rollup: 2.27.1
     standard-version: 9.0.0
     typescript: 4.0.3
   languageName: unknown
@@ -7691,7 +7691,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.27.1":
+"rollup@npm:2.27.1, rollup@npm:^2.27.1":
   version: 2.27.1
   resolution: "rollup@npm:2.27.1"
   dependencies:
