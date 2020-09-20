@@ -1,4 +1,4 @@
-import { ChildProcess } from 'child_process';
+import type { ChildProcess } from 'child_process';
 import Logger from 'nightingale-logger';
 
 const logger = new Logger('graceful-kill');

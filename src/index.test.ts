@@ -1,4 +1,4 @@
-import { ChildProcess } from 'child_process';
+import type { ChildProcess } from 'child_process';
 import gracefulKill from '.';
 
 const createProcessMock = (): ChildProcess => {
@@ -13,6 +13,7 @@ const createProcessMock = (): ChildProcess => {
 
 it('should do nothing if process is already killed by exitCode', async () => {
   const processMock = createProcessMock();
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
   (processMock as any).exitCode = 1;
   const result = await gracefulKill(processMock);
   expect(processMock.kill).toBeCalledTimes(0);
@@ -21,6 +22,7 @@ it('should do nothing if process is already killed by exitCode', async () => {
 
 it('should do nothing if process is already killed by signalCode', async () => {
   const processMock = createProcessMock();
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
   (processMock as any).signalCode = 'SIGTERM';
   const result = await gracefulKill(processMock);
   expect(processMock.kill).toBeCalledTimes(0);
