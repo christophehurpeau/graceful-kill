@@ -1035,11 +1035,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config-typescript-node@npm:40.0.0":
-  version: 40.0.0
-  resolution: "@pob/eslint-config-typescript-node@npm:40.0.0"
+"@pob/eslint-config-typescript-node@npm:40.1.0":
+  version: 40.1.0
+  resolution: "@pob/eslint-config-typescript-node@npm:40.1.0"
   dependencies:
-    "@pob/use-eslint-plugin": ^40.0.0
+    "@pob/use-eslint-plugin": ^40.1.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -1050,7 +1050,7 @@ __metadata:
       optional: true
     eslint-plugin-node:
       optional: true
-  checksum: 2f2067b64b785802fa5af15044cc8ce1f83805aa47fd99dca463e8c77b46c90d2f6a4d62dfa1af83214316ad6ff03f9a09a4d6ab00b7169fd359a0510abef86f
+  checksum: b208a5134d24b10c3409484f275ea50ec550fb7990cac66d8b0b647a2932632a5c640d70052c1a3f22b1507af31e985fc672478345859445f788309c619141e7
   languageName: node
   linkType: hard
 
@@ -1134,10 +1134,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/use-eslint-plugin@npm:^40.0.0":
-  version: 40.0.0
-  resolution: "@pob/use-eslint-plugin@npm:40.0.0"
-  checksum: 29fb95ada8c461d1bd10e6c4695e395997542578eb77c36a1ffcb3cc58db6b31307ac562a2d7635edf79b27a26347b172c6fd8641bc988d592adb95997a92578
+"@pob/use-eslint-plugin@npm:^40.0.0, @pob/use-eslint-plugin@npm:^40.1.0":
+  version: 40.1.0
+  resolution: "@pob/use-eslint-plugin@npm:40.1.0"
+  checksum: aee89cab610c3a1b9b83df9701a4450971d9d0796cdc1a5077c98a1f60b8689e27eff0d914be1bb01169c5023c7f2660dbe8529330d3f69ae1646e7c124b2266
   languageName: node
   linkType: hard
 
@@ -4348,7 +4348,7 @@ __metadata:
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 40.0.0
     "@pob/eslint-config-typescript": 40.0.0
-    "@pob/eslint-config-typescript-node": 40.0.0
+    "@pob/eslint-config-typescript-node": 40.1.0
     "@pob/root": 2.3.1
     "@types/jest": 26.0.14
     "@types/node": ">=10.0.0"
