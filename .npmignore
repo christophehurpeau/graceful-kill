@@ -8,11 +8,11 @@
 /tsconfig.json
 /tsconfig.build.json
 /dist/tsbuildinfo
-.babelrc
+babel.config.json
 .codeclimate.yml
 .yo-rc.json
-/yarn.lock
 /renovate.json
+/yarn.lock
 /.yarn
 /.yarnrc.yml
 /.pnp.js
