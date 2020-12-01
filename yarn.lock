@@ -1293,13 +1293,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.15":
-  version: 26.0.15
-  resolution: "@types/jest@npm:26.0.15"
+"@types/jest@npm:26.0.16":
+  version: 26.0.16
+  resolution: "@types/jest@npm:26.0.16"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 42fe39d582de1d79f9d6b96f3dee43ba2e9336c9d1f0e31c4f2f58bbaa059c9f4295c42a213ea9450f91400515a3abde4aae2673522fc6e11ea33f7e21c25dbe
+  checksum: 0c94186cdff943479d9ca169abc412617042eceb5427fc1394d1e23c18a99b61ba502ce4cf9160e8bc400606e9f36cc1cae91f36e329db85c623201efdc1b8f2
   languageName: node
   linkType: hard
 
@@ -4222,7 +4222,7 @@ __metadata:
     "@pob/eslint-config-typescript": 41.0.4
     "@pob/eslint-config-typescript-node": 41.0.4
     "@pob/root": 3.0.2
-    "@types/jest": 26.0.15
+    "@types/jest": 26.0.16
     "@types/node": ">=12.0.0"
     "@typescript-eslint/eslint-plugin": 4.9.0
     "@typescript-eslint/parser": 4.9.0
@@ -4239,7 +4239,7 @@ __metadata:
     pob-babel: 26.0.1
     pob-lcov-reporter: 4.0.1
     prettier: 2.2.1
-    rollup: 2.33.3
+    rollup: 2.34.0
     standard-version: 9.0.0
     typescript: 4.1.2
   languageName: unknown
@@ -7509,9 +7509,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.33.3, rollup@npm:^2.27.1":
-  version: 2.33.3
-  resolution: "rollup@npm:2.33.3"
+"rollup@npm:2.34.0, rollup@npm:^2.27.1":
+  version: 2.34.0
+  resolution: "rollup@npm:2.34.0"
   dependencies:
     fsevents: ~2.1.2
   dependenciesMeta:
@@ -7519,7 +7519,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: b14dc27a1c766a90d4c6b98c8cbedc79185a26f1ccb0eae23f82e5edbc2ec21951e2244de918aff696f9ee783c6cb8c1c788c60e3890c414794c19f7e3e80599
+  checksum: 8404d8cf93e2c7dd32c16691173daf9c1578b4c417c3989348d66075751190e996f888e01060c3b676fc9f420decc7675878b8830bf53cfd27df5a0296c9ffed
   languageName: node
   linkType: hard
 
