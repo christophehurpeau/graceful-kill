@@ -436,7 +436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-top-level-await@npm:^7.8.3":
+"@babel/plugin-syntax-top-level-await@npm:^7.12.1, @babel/plugin-syntax-top-level-await@npm:^7.8.3":
   version: 7.12.1
   resolution: "@babel/plugin-syntax-top-level-await@npm:7.12.1"
   dependencies:
@@ -2077,19 +2077,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-latest-node@npm:5.1.1, babel-preset-latest-node@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "babel-preset-latest-node@npm:5.1.1"
+"babel-preset-latest-node@npm:5.2.0, babel-preset-latest-node@npm:^5.1.1":
+  version: 5.2.0
+  resolution: "babel-preset-latest-node@npm:5.2.0"
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.10.4
     "@babel/plugin-proposal-optional-catch-binding": ^7.10.4
     "@babel/plugin-proposal-optional-chaining": ^7.10.4
     "@babel/plugin-proposal-unicode-property-regex": ^7.10.4
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
+    "@babel/plugin-syntax-top-level-await": ^7.12.1
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
   peerDependencies:
     "@babel/core": ^7.10.5
-  checksum: 49fe1ad3f2267c7339d4fe33552829982a5b65ad1ebe82619df1c1704f4a9f58c6b0e64fe789723200d37e1cc358a62623920253011cdd5f2de3ee46804bb6b7
+  checksum: bb5c85a3392e70c34189847bb55f3272ac1573bd06921df668fc991793d1ebdd595410ad49ccbbc3c324cd5406f8c72be84155c95a4a2875c8936d0efd221ecb
   languageName: node
   linkType: hard
 
@@ -4227,7 +4228,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 4.9.0
     "@typescript-eslint/parser": 4.9.0
     babel-jest: 26.6.3
-    babel-preset-latest-node: 5.1.1
+    babel-preset-latest-node: 5.2.0
     eslint: 7.14.0
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
@@ -4239,7 +4240,7 @@ __metadata:
     pob-babel: 26.0.1
     pob-lcov-reporter: 4.0.1
     prettier: 2.2.1
-    rollup: 2.34.0
+    rollup: 2.34.1
     standard-version: 9.0.0
     typescript: 4.1.2
   languageName: unknown
@@ -7509,9 +7510,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.34.0, rollup@npm:^2.27.1":
-  version: 2.34.0
-  resolution: "rollup@npm:2.34.0"
+"rollup@npm:2.34.1, rollup@npm:^2.27.1":
+  version: 2.34.1
+  resolution: "rollup@npm:2.34.1"
   dependencies:
     fsevents: ~2.1.2
   dependenciesMeta:
@@ -7519,7 +7520,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 8404d8cf93e2c7dd32c16691173daf9c1578b4c417c3989348d66075751190e996f888e01060c3b676fc9f420decc7675878b8830bf53cfd27df5a0296c9ffed
+  checksum: 1e714afe5e5ae78696f66072035c9b10a69af547b3793db3bab62e9a0fe9f0b0c2b1090b00d9be420104247465319ed78ce73f2f7fc235a9305ce6cabf8a9e3c
   languageName: node
   linkType: hard
 
