@@ -4,11 +4,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 const Logger = require('nightingale-logger');
 
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e['default'] : e; }
 
 const Logger__default = /*#__PURE__*/_interopDefaultLegacy(Logger);
 
-const logger = new Logger__default['default']('graceful-kill');
+const logger = new Logger__default('graceful-kill');
 function gracefulKill(process, SIGTERMTimeout = 4000) {
   return new Promise(resolve => {
     if (process.exitCode !== null || process.signalCode !== null) {
@@ -46,4 +46,4 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
 }
 
 exports.default = gracefulKill;
-//# sourceMappingURL=index-node10.cjs.js.map
+//# sourceMappingURL=index-node12.cjs.js.map

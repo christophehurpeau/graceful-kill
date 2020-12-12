@@ -38,4 +38,4 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
 }
 
 export default gracefulKill;
-//# sourceMappingURL=index-node10-dev.mjs.map
+//# sourceMappingURL=index-node12-dev.mjs.map
