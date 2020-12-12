@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v3.1.0...v4.0.0) (2020-12-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop node 10
+
+### Bug Fixes
+
+* **deps:** update dependency nightingale-logger to v11 ([#122](https://github.com/christophehurpeau/graceful-kill/issues/122)) ([a973c53](https://github.com/christophehurpeau/graceful-kill/commit/a973c5309e112f9353ae8d5254df95d53cde20c1))
+
+
+* update dependencies and requires node 12 ([a69927b](https://github.com/christophehurpeau/graceful-kill/commit/a69927b31ab4b2873ce05558979641b3a45c1d53))
+
 ## [3.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v3.0.1...v3.1.0) (2020-09-20)
 
 
