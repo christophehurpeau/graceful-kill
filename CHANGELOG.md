@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/christophehurpeau/graceful-kill/compare/v4.0.0...v4.0.1) (2020-12-12)
+
+
+### Bug Fixes
+
+* missing dist build ([cacce16](https://github.com/christophehurpeau/graceful-kill/commit/cacce16217bc1e930b92f50671aa499d9e7335b1))
+
 ## [4.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v3.1.0...v4.0.0) (2020-12-12)
 
 
