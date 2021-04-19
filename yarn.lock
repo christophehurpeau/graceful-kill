@@ -1405,10 +1405,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12.0.0":
-  version: 14.14.7
-  resolution: "@types/node@npm:14.14.7"
-  checksum: 4fc8434bfe81c2a3102fa76777712ecee9e9177d43ec5929ba0dfd5a77a6c459cf10a37df64ea880a328f06973f6210eabf04b312428e309b2e8998147a6cd63
+"@types/node@npm:*, @types/node@npm:14.14.41, @types/node@npm:>=12.0.0":
+  version: 14.14.41
+  resolution: "@types/node@npm:14.14.41"
+  checksum: 37dfb639644c8ee9b9846106834983f590d494b855e74645a4f169ea24199f7559366d25f6e72e83ba940b59eb6370e002bd53963d098d6d9fdf935a37011417
   languageName: node
   linkType: hard
 
@@ -4303,7 +4303,7 @@ __metadata:
     "@pob/eslint-config-typescript-node": 43.0.0
     "@pob/root": 3.2.0
     "@types/jest": 26.0.22
-    "@types/node": ">=12.0.0"
+    "@types/node": 14.14.41
     "@typescript-eslint/eslint-plugin": 4.19.0
     "@typescript-eslint/parser": 4.19.0
     babel-jest: 26.6.3
