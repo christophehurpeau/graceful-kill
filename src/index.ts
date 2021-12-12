@@ -1,23 +1,25 @@
 import type { ChildProcess } from 'child_process';
-import Logger from 'nightingale-logger';
+import { Logger } from 'nightingale-logger';
 
 const logger = new Logger('graceful-kill');
 
-export default function gracefulKill(
+export function gracefulKill(
   process: ChildProcess,
   SIGTERMTimeout = 4000,
 ): Promise<void> {
   return new Promise((resolve) => {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', { pid: process.pid });
-      return resolve();
+      resolve();
+      return;
     }
     const killTimeout = setTimeout(() => {
       if (process.exitCode !== null || process.signalCode !== null) {
         logger.warn('kill timeout: process already exited', {
           pid: process.pid,
         });
-        return resolve();
+        resolve();
+        return;
       }
 
       logger.warn('kill timeout: sending SIGKILL...', { pid: process.pid });
@@ -33,3 +35,5 @@ export default function gracefulKill(
     process.kill();
   });
 }
+
+export default gracefulKill;
