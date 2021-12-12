@@ -1,14 +1,16 @@
 import type { ChildProcess } from 'child_process';
-import gracefulKill from '.';
+// eslint-disable-next-line import/no-extraneous-dependencies, node/no-extraneous-import
+import { jest } from '@jest/globals';
+import { gracefulKill } from '.';
 
 const createProcessMock = (): ChildProcess => {
-  return ({
+  return {
     exitCode: null,
     signalCode: null,
     kill: jest.fn(),
     removeAllListeners: jest.fn(),
     once: jest.fn(),
-  } as unknown) as ChildProcess;
+  } as unknown as ChildProcess;
 };
 
 it('should do nothing if process is already killed by exitCode', async () => {
