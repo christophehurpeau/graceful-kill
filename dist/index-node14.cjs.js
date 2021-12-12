@@ -2,20 +2,17 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const Logger = require('nightingale-logger');
+const nightingaleLogger = require('nightingale-logger');
 
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e["default"] : e; }
-
-const Logger__default = /*#__PURE__*/_interopDefaultLegacy(Logger);
-
-const logger = new Logger__default('graceful-kill');
+const logger = new nightingaleLogger.Logger('graceful-kill');
 function gracefulKill(process, SIGTERMTimeout = 4000) {
   return new Promise(resolve => {
     if (process.exitCode !== null || process.signalCode !== null) {
       logger.warn('process already exited', {
         pid: process.pid
       });
-      return resolve();
+      resolve();
+      return;
     }
 
     const killTimeout = setTimeout(() => {
@@ -23,7 +20,8 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
         logger.warn('kill timeout: process already exited', {
           pid: process.pid
         });
-        return resolve();
+        resolve();
+        return;
       }
 
       logger.warn('kill timeout: sending SIGKILL...', {
@@ -46,4 +44,5 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
 }
 
 exports["default"] = gracefulKill;
+exports.gracefulKill = gracefulKill;
 //# sourceMappingURL=index-node14.cjs.js.map

@@ -1,4 +1,4 @@
-import Logger from 'nightingale-logger';
+import { Logger } from 'nightingale-logger';
 
 const logger = new Logger('graceful-kill');
 function gracefulKill(process, SIGTERMTimeout = 4000) {
@@ -7,7 +7,8 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
       logger.warn('process already exited', {
         pid: process.pid
       });
-      return resolve();
+      resolve();
+      return;
     }
 
     const killTimeout = setTimeout(() => {
@@ -15,7 +16,8 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
         logger.warn('kill timeout: process already exited', {
           pid: process.pid
         });
-        return resolve();
+        resolve();
+        return;
       }
 
       logger.warn('kill timeout: sending SIGKILL...', {
@@ -37,5 +39,5 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
   });
 }
 
-export { gracefulKill as default };
+export { gracefulKill as default, gracefulKill };
 //# sourceMappingURL=index-node14.mjs.map
