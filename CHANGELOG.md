@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://www.github.com/christophehurpeau/graceful-kill/compare/v4.1.0...v5.0.0) (2021-12-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* requires node 14
+
+### Features
+
+* **deps:** update dependency @types/node to v14.14.41 ([#218](https://www.github.com/christophehurpeau/graceful-kill/issues/218)) ([99889bb](https://www.github.com/christophehurpeau/graceful-kill/commit/99889bbaa6f85603cfa215e4c255890ebce5db1f))
+* **deps:** update dependency @types/node to v14.14.42 ([#223](https://www.github.com/christophehurpeau/graceful-kill/issues/223)) ([a3c8505](https://www.github.com/christophehurpeau/graceful-kill/commit/a3c8505ae5ed0d55028fc9a139f407a9512867a0))
+* **deps:** update dependency @types/node to v14.14.43 ([#224](https://www.github.com/christophehurpeau/graceful-kill/issues/224)) ([413042b](https://www.github.com/christophehurpeau/graceful-kill/commit/413042b2d57b4ecc7cf0463fa8346dccef25ea68))
+* **deps:** update dependency @types/node to v14.14.44 ([#228](https://www.github.com/christophehurpeau/graceful-kill/issues/228)) ([cc7c58a](https://www.github.com/christophehurpeau/graceful-kill/commit/cc7c58a588b30c3dcd9b6c20907887eb6f1495fe))
+* **deps:** update dependency @types/node to v14.17.0 ([#235](https://www.github.com/christophehurpeau/graceful-kill/issues/235)) ([80e4ef5](https://www.github.com/christophehurpeau/graceful-kill/commit/80e4ef5bb65d93ac65e8e0895a6bf066d99756bb))
+* update nightingale-logger ([859f0b0](https://www.github.com/christophehurpeau/graceful-kill/commit/859f0b0f7f06819a5d56ff0fab94f6b0ba079039))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/node to v14.14.45 ([#232](https://www.github.com/christophehurpeau/graceful-kill/issues/232)) ([570e731](https://www.github.com/christophehurpeau/graceful-kill/commit/570e731b255083dd2dad26f508d79cdac868360a))
+* **deps:** update dependency @types/node to v14.17.1 ([#238](https://www.github.com/christophehurpeau/graceful-kill/issues/238)) ([2fd3198](https://www.github.com/christophehurpeau/graceful-kill/commit/2fd319840fc6a9fde269d978fa9f58e5bc3ac875))
+* **deps:** update dependency @types/node to v14.17.2 ([#246](https://www.github.com/christophehurpeau/graceful-kill/issues/246)) ([61d5f5c](https://www.github.com/christophehurpeau/graceful-kill/commit/61d5f5c1caf2bea664b206a90a6b0e7f6412a69f))
+* **deps:** update dependency @types/node to v14.17.3 ([#250](https://www.github.com/christophehurpeau/graceful-kill/issues/250)) ([390a443](https://www.github.com/christophehurpeau/graceful-kill/commit/390a44363f25c46d2e7fcf96de8a67ef9ad564c9))
+* **deps:** update dependency @types/node to v14.17.4 ([#259](https://www.github.com/christophehurpeau/graceful-kill/issues/259)) ([a02fcc5](https://www.github.com/christophehurpeau/graceful-kill/commit/a02fcc586ef121c137f2fed1c306c8eb0e968929))
+* **deps:** update dependency @types/node to v14.17.5 ([#281](https://www.github.com/christophehurpeau/graceful-kill/issues/281)) ([29cdb6d](https://www.github.com/christophehurpeau/graceful-kill/commit/29cdb6dc7328377fe5b7320a7773f87114be6974))
+* **deps:** update dependency @types/node to v14.17.7 ([#289](https://www.github.com/christophehurpeau/graceful-kill/issues/289)) ([7ba9e92](https://www.github.com/christophehurpeau/graceful-kill/commit/7ba9e92544b082a824582690a347eda1475f99dd))
+
+
+### Code Refactoring
+
+* update dev deps, drop node 12 ([d9b4c36](https://www.github.com/christophehurpeau/graceful-kill/commit/d9b4c3650a8b603c6dfdd16d82803f570b0ec1da))
+
 ## [4.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v4.0.1...v4.1.0) (2021-01-18)
 
 
