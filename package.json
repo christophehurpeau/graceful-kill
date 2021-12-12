@@ -7,25 +7,23 @@
   "license": "ISC",
   "repository": "https://github.com/christophehurpeau/graceful-kill.git",
   "homepage": "https://github.com/christophehurpeau/graceful-kill",
+  "type": "commonjs",
   "engines": {
-    "node": ">=12.10.0"
+    "node": "^14.13.1 || >=16.0.0"
   },
-  "main": "./index.js",
+  "packageManager": "yarn@3.1.1",
+  "main": "./dist/index-node14.cjs.js",
   "types": "./dist/index.d.ts",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "node": {
-        "development": {
-          "import": "./dist/index-node12-dev.mjs",
-          "require": "./dist/index-node12-dev.cjs.js"
-        },
-        "import": "./dist/index-node12.mjs",
-        "require": "./dist/index-node12.cjs.js"
+        "import": "./dist/index-node14.mjs",
+        "require": "./dist/index-node14.cjs.js"
       }
     }
   },
-  "module:node": "./dist/index-node12.mjs",
-  "module:node-dev": "./dist/index-node12-dev.mjs",
+  "module:node": "./dist/index-node14.mjs",
   "sideEffects": false,
   "scripts": {
     "build": "pob-build && yarn run build:definitions",
@@ -33,12 +31,11 @@
     "clean": "rm -Rf dist",
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "yarn run lint:prettier && tsc && yarn run lint:eslint",
-    "lint:eslint": "eslint --ext .js,.mjs,.ts --report-unused-disable-directives --quiet *.js src",
+    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} src",
     "lint:prettier": "prettier --check .",
-    "preversion": "yarn run lint && yarn run build && repository-check-dirty",
-    "release": "repository-check-dirty && yarn preversion && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
+    "postinstallDev": "pob-root-postinstall",
     "test": "jest",
-    "test:watch": "jest",
+    "test:watch": "jest --watch",
     "watch": "pob-watch"
   },
   "prettier": {
@@ -65,16 +62,13 @@
       "js",
       "json"
     ],
-    "transform": {
-      "^.+\\.ts$": "babel-jest"
-    },
     "testEnvironment": "node"
   },
   "pob": {
     "babelEnvs": [
       {
         "target": "node",
-        "version": "12",
+        "version": "14",
         "formats": [
           "cjs",
           "es"
@@ -86,34 +80,21 @@
     ]
   },
   "dependencies": {
-    "@types/node": "14.17.7",
+    "@types/node": ">=14.0.0",
     "nightingale-logger": "^11.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.14.8",
-    "@pob/commitlint-config": "2.2.0",
-    "@pob/eslint-config": "43.0.0",
-    "@pob/eslint-config-node": "43.2.0",
-    "@pob/eslint-config-typescript": "43.0.0",
-    "@pob/eslint-config-typescript-node": "43.2.0",
-    "@pob/root": "3.3.0",
-    "@types/jest": "26.0.24",
-    "@typescript-eslint/eslint-plugin": "4.29.0",
-    "@typescript-eslint/parser": "4.29.0",
-    "babel-jest": "26.6.3",
-    "babel-preset-latest-node": "5.5.1",
-    "eslint": "7.32.0",
-    "eslint-import-resolver-node": "0.3.4",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-unicorn": "25.0.1",
-    "husky": "4.3.8",
-    "jest": "26.6.3",
-    "pob-babel": "26.8.0",
-    "pob-lcov-reporter": "4.0.1",
-    "prettier": "2.2.1",
-    "rollup": "2.55.1",
-    "standard-version": "9.3.1",
-    "typescript": "4.1.5"
+    "@babel/core": "7.16.0",
+    "@pob/commitlint-config": "4.0.0",
+    "@pob/eslint-config": "48.0.5",
+    "@pob/eslint-config-typescript": "48.0.6",
+    "@pob/root": "6.1.5",
+    "@types/jest": "27.0.3",
+    "eslint": "8.4.1",
+    "jest": "27.4.4",
+    "pob-babel": "29.4.2",
+    "pob-lcov-reporter": "6.0.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.3"
   }
 }
