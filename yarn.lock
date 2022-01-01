@@ -3756,7 +3756,7 @@ __metadata:
     "@types/node": ">=14.0.0"
     eslint: 8.6.0
     jest: 27.4.5
-    nightingale-logger: ^12.0.0
+    nightingale-logger: ^12.1.1
     pob-babel: 29.6.1
     pob-lcov-reporter: 6.0.1
     prettier: 2.5.1
@@ -5428,30 +5428,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-levels@npm:12.1.0":
-  version: 12.1.0
-  resolution: "nightingale-levels@npm:12.1.0"
-  checksum: 00a8c47fdd6c1f094236ef6c7706de0fca5366d4889391ca3ac1415a942f142a77c181c29348f7f0c96dd944b5390fc9e6d4b0b250f7f750384c17d19b67c2b8
+"nightingale-levels@npm:12.1.1":
+  version: 12.1.1
+  resolution: "nightingale-levels@npm:12.1.1"
+  checksum: 14a3bcacc6056d120105cd4c33c496cffb075f911b2347093d663eec48fdb701267f922f28290391ed009ca02dbfedc23d2998b85363220f099d8d5b68c657d2
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:^12.0.0":
-  version: 12.1.0
-  resolution: "nightingale-logger@npm:12.1.0"
+"nightingale-logger@npm:^12.1.1":
+  version: 12.1.1
+  resolution: "nightingale-logger@npm:12.1.1"
   dependencies:
     "@types/node": ">=14.0.0"
-    nightingale-levels: 12.1.0
-    nightingale-types: 12.1.0
-  checksum: 7a3cd4d9e55c642bf82ea941c59f64fe22c26da34989e736c75143e0cbc3b5021d40e8382cb9f25665285fc4c2777f1b5b82c278a702a98210ddcd4267546ea3
+    nightingale-levels: 12.1.1
+    nightingale-types: 12.1.1
+  checksum: 1549b66235f62e393d79389e289946f8e65dff550331231b25b1abaad79f05259a87f494a63d28a21113fc1500b493aa382da3d348375f8f40db768c982f72e3
   languageName: node
   linkType: hard
 
-"nightingale-types@npm:12.1.0":
-  version: 12.1.0
-  resolution: "nightingale-types@npm:12.1.0"
+"nightingale-types@npm:12.1.1":
+  version: 12.1.1
+  resolution: "nightingale-types@npm:12.1.1"
   dependencies:
-    nightingale-levels: 12.1.0
-  checksum: 1c6f5275a37e52df4d9943e21ad5bcc37d00fa816c8d632c9cd513cd93f790b627f6791165e908992ae11367b821b01096299f0b2e3f9a33f51c44886dda7c13
+    nightingale-levels: 12.1.1
+  checksum: 3ea7bad0597ab90a6051a3a4b21496a15234a748f346bdcaa987dff55ed5a658cba3ec47af27f1d063101506cafc862170bfc9030e1435aa0e97ebd3f6620aa4
   languageName: node
   linkType: hard
 
