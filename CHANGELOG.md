@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.1](https://github.com/christophehurpeau/graceful-kill/compare/v5.0.0...v5.0.1) (2022-01-01)
+
+
+### Bug Fixes
+
+* update nightingale-loger ([17e4385](https://github.com/christophehurpeau/graceful-kill/commit/17e43853e0f0c5eb7f998b55f2fcc79ae7832b48))
+
 ## [5.0.0](https://www.github.com/christophehurpeau/graceful-kill/compare/v4.1.0...v5.0.0) (2021-12-12)
 
 
