@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v5.0.1...v6.0.0) (2022-01-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* requires node with esm
+
+### Features
+
+* drop cjs support ([268134c](https://github.com/christophehurpeau/graceful-kill/commit/268134cb47a44ce1b9ceb085357cf00c9d86e2b4))
+
+
+### Bug Fixes
+
+* update nightingale-logger ([47a7d23](https://github.com/christophehurpeau/graceful-kill/commit/47a7d23abd79bd2ecb6edf3a0459d9d1a97f61d5))
+
 ### [5.0.1](https://github.com/christophehurpeau/graceful-kill/compare/v5.0.0...v5.0.1) (2022-01-01)
 
 
