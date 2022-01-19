@@ -92,7 +92,7 @@
     "@pob/eslint-config-typescript": "48.0.6",
     "@pob/root": "6.4.0",
     "@types/jest": "27.4.0",
-    "check-package-dependencies": "3.0.1",
+    "check-package-dependencies": "3.0.2",
     "eslint": "8.7.0",
     "jest": "27.4.7",
     "pob-babel": "29.7.0",
