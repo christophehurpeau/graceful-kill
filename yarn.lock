@@ -2242,9 +2242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-pob-env@npm:7.1.9":
-  version: 7.1.9
-  resolution: "babel-preset-pob-env@npm:7.1.9"
+"babel-preset-pob-env@npm:7.1.10":
+  version: 7.1.10
+  resolution: "babel-preset-pob-env@npm:7.1.10"
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.16.0
     "@babel/plugin-proposal-optional-chaining": ^7.16.0
@@ -2256,7 +2256,7 @@ __metadata:
     babel-preset-optimizations: ^2.0.0
   peerDependencies:
     "@babel/core": ^7.11.6
-  checksum: 6f584833ef1b3d498beedc801623f0a466e7c9973b71f8a10aac7ab2447976eb3264637e2261893999f2c187edde60aa2e5d5d7f8532cea7ca6289c6a43c71e7
+  checksum: 5c9a29740f765ce2d968a9b239ac4db231676706260e6120d69b43f94870dc093e0531a1537bdcf89bca9ad88f12fd44c2e5f89bfd2e27f027dc804b737b69fc
   languageName: node
   linkType: hard
 
@@ -3810,7 +3810,7 @@ __metadata:
     eslint: 8.9.0
     jest: 27.5.1
     nightingale-logger: ^12.1.2
-    pob-babel: 32.1.0
+    pob-babel: 32.2.0
     prettier: 2.5.1
     typescript: 4.5.5
   languageName: unknown
@@ -5891,9 +5891,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-babel@npm:32.1.0":
-  version: 32.1.0
-  resolution: "pob-babel@npm:32.1.0"
+"pob-babel@npm:32.2.0":
+  version: 32.2.0
+  resolution: "pob-babel@npm:32.2.0"
   dependencies:
     "@babel/core": ^7.16.5
     "@babel/plugin-transform-runtime": 7.17.0
@@ -5904,20 +5904,20 @@ __metadata:
     "@rollup/plugin-run": 2.1.0
     babel-plugin-module-resolver: ^4.1.0
     babel-preset-modern-browsers: ^15.0.2
-    babel-preset-pob-env: 7.1.9
-    rollup: 2.67.2
+    babel-preset-pob-env: 7.1.10
+    rollup: 2.67.3
     rollup-config-external-dependencies: ^2.0.0
     semver: ^7.3.4
   peerDependencies:
     "@babel/core": ^7.16.5
-    rollup: 2.67.2
+    rollup: 2.67.3
     typescript: ^4.0.3
   peerDependenciesMeta:
     rollup:
       optional: true
   bin:
     rollup: bin/rollup.cjs
-  checksum: 55670937417d3b4004a95b3c77ba8df9d7d4f8e1225005aff13e82e56c6af4ea9212ecedb5165eba2f4f5d6dcbd726142ebf6b1343e0036767fc3adc021092f4
+  checksum: fb8349ffb6a27b1dc74d74acecd3ad8db91df536d9867bffa675555b69faf3c12ab56d571cecd0a5116bc780453c0420b952b3d7060ba9511dd96c71dc474910
   languageName: node
   linkType: hard
 
@@ -6228,9 +6228,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.67.2":
-  version: 2.67.2
-  resolution: "rollup@npm:2.67.2"
+"rollup@npm:2.67.3":
+  version: 2.67.3
+  resolution: "rollup@npm:2.67.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -6238,7 +6238,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 9aca5251ba4b441064183cde2394b91567259002d68086bdd3906db66d55dd148ab27e57c51eb53830d7b9b813c2d4e834b7735d65e2a869780bc639d4a20c38
+  checksum: c4013a2ceef6918375fd07a6548e05d0f3df1db9f0a0281aebe6e993a45c0e667c5a06f53b55c0ffaf72f72266c1879bc181b13199aace97d93f0fc47691d4a9
   languageName: node
   linkType: hard
 
