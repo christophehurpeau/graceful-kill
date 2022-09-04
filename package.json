@@ -29,7 +29,7 @@
     "build:definitions": "tsc -p tsconfig.build.json",
     "checks": "node scripts/check-package.js",
     "clean": "yarn clean:build",
-    "clean:build": "rm -Rf dist",
+    "clean:build": "pob-babel-clean-out dist",
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "yarn run lint:prettier && tsc && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} src scripts",
@@ -97,7 +97,7 @@
     "check-package-dependencies": "3.9.2",
     "eslint": "8.23.0",
     "jest": "28.1.3",
-    "pob-babel": "34.0.0",
+    "pob-babel": "34.1.0",
     "typescript": "4.8.2"
   }
 }
