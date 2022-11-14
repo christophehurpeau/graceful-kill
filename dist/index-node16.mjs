@@ -10,7 +10,6 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
       resolve();
       return;
     }
-
     const killTimeout = setTimeout(() => {
       if (process.exitCode !== null || process.signalCode !== null) {
         logger.warn('kill timeout: process already exited', {
@@ -19,7 +18,6 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
         resolve();
         return;
       }
-
       logger.warn('kill timeout: sending SIGKILL...', {
         pid: process.pid
       });
@@ -40,4 +38,4 @@ function gracefulKill(process, SIGTERMTimeout = 4000) {
 }
 
 export { gracefulKill as default, gracefulKill };
-//# sourceMappingURL=index-node14.mjs.map
+//# sourceMappingURL=index-node16.mjs.map
