@@ -25,7 +25,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "yarn clean:build && rollup --config rollup.config.mjs && yarn run build:definitions",
-    "build:definitions": "tsc -p",
+    "build:definitions": "tsc -p tsconfig.json",
     "checks": "node scripts/check-package.js",
     "clean": "yarn clean:build",
     "clean:build": "pob-babel-clean-out dist",
