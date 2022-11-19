@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v6.1.0...v7.0.0) (2022-11-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed support for node 14
+
+### Features
+
+* **deps:** update dependency nightingale-logger to v13 ([#465](https://github.com/christophehurpeau/graceful-kill/issues/465)) ([bab074e](https://github.com/christophehurpeau/graceful-kill/commit/bab074e5ead77c4bb98640331ed3f84f139c9b9b))
+
+
+### Code Refactoring
+
+* drop node 14 ([62f1fc2](https://github.com/christophehurpeau/graceful-kill/commit/62f1fc2a7b9b2154b07afd4abb4de155952467a5))
+
 ## [6.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v6.0.0...v6.1.0) (2022-04-30)
 
 
