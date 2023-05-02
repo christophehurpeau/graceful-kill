@@ -80,7 +80,7 @@
     "nightingale-logger": "^13.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.21.5",
+    "@babel/core": "7.21.8",
     "@pob/commitlint-config": "5.1.1",
     "@pob/eslint-config": "50.0.4",
     "@pob/eslint-config-typescript": "50.0.4",
