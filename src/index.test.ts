@@ -1,4 +1,4 @@
-import type { ChildProcess } from 'child_process';
+import type { ChildProcess } from 'node:child_process';
 // eslint-disable-next-line import/no-extraneous-dependencies, node/no-extraneous-import
 import { jest } from '@jest/globals';
 import { gracefulKill } from '.';
