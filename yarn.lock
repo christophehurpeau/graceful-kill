@@ -3848,7 +3848,7 @@ __metadata:
     check-package-dependencies: 6.4.1
     eslint: 8.43.0
     jest: 29.5.0
-    nightingale-logger: ^14.0.2
+    nightingale-logger: ^14.0.1
     pob-babel: 36.1.0
     typescript: 5.1.6
   languageName: unknown
@@ -5526,7 +5526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:^14.0.2":
+"nightingale-logger@npm:^14.0.1":
   version: 14.0.2
   resolution: "nightingale-logger@npm:14.0.2"
   dependencies:

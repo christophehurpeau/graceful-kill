@@ -78,7 +78,7 @@
   },
   "dependencies": {
     "@types/node": ">=18.0.0",
-    "nightingale-logger": "^14.0.2"
+    "nightingale-logger": "^14.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.22.5",
