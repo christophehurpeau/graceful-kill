@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.1](https://github.com/christophehurpeau/graceful-kill/compare/v8.0.0...v8.0.1) (2023-07-27)
+
+
+### Bug Fixes
+
+* add missing types for ts 5 ([84a8bff](https://github.com/christophehurpeau/graceful-kill/commit/84a8bff8928867beae43020d01066819e22cd10e))
+
 ## [8.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v7.0.0...v8.0.0) (2023-06-30)
 
 
