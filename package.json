@@ -47,25 +47,6 @@
       "@pob/commitlint-config"
     ]
   },
-  "jest": {
-    "cacheDirectory": "./node_modules/.cache/jest",
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.ts",
-      "<rootDir>/src/**/*.test.ts"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.ts"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "js",
-      "json"
-    ],
-    "extensionsToTreatAsEsm": [
-      ".ts"
-    ],
-    "testEnvironment": "node"
-  },
   "pob": {
     "babelEnvs": [
       {
