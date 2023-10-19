@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.3](https://github.com/christophehurpeau/graceful-kill/compare/v8.0.2...v8.0.3) (2023-10-19)
+
+Note: no notable changes
+
+
 ## [8.0.2](https://github.com/christophehurpeau/graceful-kill/compare/v8.0.1...v8.0.2) (2023-10-19)
 
 Note: no notable changes
