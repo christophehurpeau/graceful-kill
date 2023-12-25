@@ -3923,7 +3923,7 @@ __metadata:
     check-package-dependencies: "npm:7.0.0"
     eslint: "npm:8.56.0"
     jest: "npm:29.7.0"
-    nightingale-logger: "npm:^14.0.2"
+    nightingale-logger: "npm:^15.0.0"
     pob-babel: "npm:38.0.0"
     typescript: "npm:5.3.3"
   languageName: unknown
@@ -5635,30 +5635,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-levels@npm:14.0.2":
-  version: 14.0.2
-  resolution: "nightingale-levels@npm:14.0.2"
-  checksum: 3582b8d93f9b0572b37d2bb9a61cee8405a316f715a278c3252e027ef0658acc0ea56359abce481a82a2b908c9af3419d871083b9452ca9f5e201c2a9c680547
+"nightingale-levels@npm:15.0.0":
+  version: 15.0.0
+  resolution: "nightingale-levels@npm:15.0.0"
+  checksum: cb1e770e43554bc7697a07dc02167f309ef9e298efe449929c1809ebc39bbdf42e663cae0e35133dbf1e72149a2c48bc85d0f311fa74481e18bd79ec3eca3695
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:^14.0.2":
-  version: 14.0.2
-  resolution: "nightingale-logger@npm:14.0.2"
+"nightingale-logger@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "nightingale-logger@npm:15.0.0"
   dependencies:
     "@types/node": "npm:>=18.0.0"
-    nightingale-levels: "npm:14.0.2"
-    nightingale-types: "npm:14.0.2"
-  checksum: 6beb59cf5058232e6e3da0cfa1e19a353e0354e5cd3ec38848f95b5aef85f0b0e529f475a49929a3b034402e15abe6bcc61d9f32a857233eaa14fd66446d19aa
+    nightingale-levels: "npm:15.0.0"
+    nightingale-types: "npm:15.0.0"
+  checksum: 6e04928bf51c7aa1821af8b7c0ae1d9ae18b5ed33b6429b1d57bd1e434eba0ce1c004c0c985376f5fe4844e50248067f3167639073ebb5e94e2002f3d7d53c3c
   languageName: node
   linkType: hard
 
-"nightingale-types@npm:14.0.2":
-  version: 14.0.2
-  resolution: "nightingale-types@npm:14.0.2"
+"nightingale-types@npm:15.0.0":
+  version: 15.0.0
+  resolution: "nightingale-types@npm:15.0.0"
   dependencies:
-    nightingale-levels: "npm:14.0.2"
-  checksum: b14c80da4c82425e91bfb1ab959c197a50b8b2fcf302aff67de1ee0df7a0b4350840585b94f738781eff1ae7a5ae59edbb9815220c75800746947cf290f4a9e5
+    nightingale-levels: "npm:15.0.0"
+  checksum: f3d7cc5b1e0f8a8d77f8fed50f25577dfa12c351363e8184e7d279936b27e729e0813cd4ffb683209175522b16bba178a55485c48a991370a48692f5d0f4f2a4
   languageName: node
   linkType: hard
 
