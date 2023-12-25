@@ -74,9 +74,9 @@
     "@pob/root": "8.9.1",
     "@types/jest": "29.5.11",
     "check-package-dependencies": "7.0.0",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "jest": "29.7.0",
-    "pob-babel": "37.0.0",
+    "pob-babel": "38.0.0",
     "typescript": "5.3.3"
   }
 }
