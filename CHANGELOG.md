@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v8.0.3...v8.1.0) (2023-12-25)
+
+
+### Features
+
+* update nightingale-logger ([dbbaf34](https://github.com/christophehurpeau/graceful-kill/commit/dbbaf34b3a56fa91b4e22b81cdde8071c0d29149))
+
+
 ## [8.0.3](https://github.com/christophehurpeau/graceful-kill/compare/v8.0.2...v8.0.3) (2023-10-19)
 
 Note: no notable changes

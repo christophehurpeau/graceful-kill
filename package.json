@@ -1,6 +1,6 @@
 {
   "name": "graceful-kill",
-  "version": "8.0.3",
+  "version": "8.1.0",
   "description": "gracefully kills a spawn process",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
