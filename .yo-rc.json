@@ -12,7 +12,8 @@
       "documentation": false,
       "testing": {
         "codecov": false,
-        "ci": true
+        "ci": true,
+        "runner": "jest"
       }
     },
     "project": {
