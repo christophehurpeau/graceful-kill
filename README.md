@@ -22,12 +22,12 @@ npm install --save graceful-kill
 ## Usage
 
 ```js
-import { spawn } from 'child_process';
-import gracefulKill from 'graceful-kill';
+import { spawn } from "child_process";
+import gracefulKill from "graceful-kill";
 
-const process = spawn('sleep', [99999]);
+const process = spawn("sleep", [99999]);
 
-process.on('SIGINT', () => {
+process.on("SIGINT", () => {
   gracefulKill(process).then(() => {
     process.exit(0);
   });
