@@ -1236,12 +1236,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.19.34, @types/node@npm:>=18.0.0":
-  version: 18.19.34
-  resolution: "@types/node@npm:18.19.34"
+"@types/node@npm:*, @types/node@npm:18.19.35, @types/node@npm:>=18.0.0":
+  version: 18.19.35
+  resolution: "@types/node@npm:18.19.35"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/e985f50684def801801069e236165ee511f9195fc04ad4a2af7642d86aeaeaf7bfe34c147f894a48618a5c71c15b388ca91341a244792149543a712e38351988
+  checksum: 10c0/cb506a28f621e00d93ff5fbe475305d8897facafc66d698f6645d5360995f7c70793c5ac296ba1e94fd8d08fd9a597ccf0808876378eec6bedd96990d1296c6e
   languageName: node
   linkType: hard
 
@@ -3416,7 +3416,7 @@ __metadata:
     "@pob/eslint-config-typescript": "npm:56.0.0"
     "@pob/rollup-esbuild": "npm:3.0.0"
     "@pob/root": "npm:12.1.1"
-    "@types/node": "npm:18.19.34"
+    "@types/node": "npm:18.19.35"
     check-package-dependencies: "npm:7.1.1"
     eslint: "npm:8.57.0"
     nightingale-logger: "npm:^15.0.0"
