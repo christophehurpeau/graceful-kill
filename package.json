@@ -78,7 +78,7 @@
     "@types/node": "20.14.9",
     "check-package-dependencies": "7.1.1",
     "eslint": "8.57.0",
-    "typescript": "5.4.5",
+    "typescript": "5.5.2",
     "vitest": "1.6.0"
   }
 }
