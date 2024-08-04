@@ -79,6 +79,6 @@
     "check-package-dependencies": "7.2.0",
     "eslint": "8.57.0",
     "typescript": "5.5.4",
-    "vitest": "2.0.4"
+    "vitest": "2.0.5"
   }
 }
