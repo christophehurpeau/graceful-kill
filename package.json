@@ -8,7 +8,7 @@
   "repository": "https://github.com/christophehurpeau/graceful-kill.git",
   "homepage": "https://github.com/christophehurpeau/graceful-kill",
   "type": "module",
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.4.1",
   "engines": {
     "node": ">=18.12.0"
   },
