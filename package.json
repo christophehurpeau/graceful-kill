@@ -10,7 +10,7 @@
   "type": "module",
   "packageManager": "yarn@4.5.1",
   "engines": {
-    "node": ">=18.12.0"
+    "node": ">=20.9.0"
   },
   "sideEffects": false,
   "main": "./dist/index-node18.mjs",
@@ -60,7 +60,7 @@
     "envs": [
       {
         "target": "node",
-        "version": "18"
+        "version": "20"
       }
     ],
     "typescript": true
@@ -70,11 +70,11 @@
     "nightingale-logger": "^15.0.0"
   },
   "devDependencies": {
-    "@pob/commitlint-config": "7.0.0",
+    "@pob/commitlint-config": "8.0.0",
     "@pob/eslint-config": "58.1.0",
     "@pob/eslint-config-typescript": "58.1.0",
-    "@pob/rollup-esbuild": "4.1.0",
-    "@pob/root": "13.4.1",
+    "@pob/rollup-esbuild": "5.0.0",
+    "@pob/root": "14.1.0",
     "@types/node": "20.17.6",
     "@vitest/coverage-v8": "2.1.5",
     "check-package-dependencies": "7.2.0",
