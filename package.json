@@ -13,14 +13,14 @@
     "node": ">=20.9.0"
   },
   "sideEffects": false,
-  "main": "./dist/index-node18.mjs",
+  "main": "./dist/index-node20.mjs",
   "types": "./dist/definitions/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
       "types": "./dist/definitions/index.d.ts",
       "node": {
-        "import": "./dist/index-node18.mjs"
+        "import": "./dist/index-node20.mjs"
       }
     }
   },
@@ -76,10 +76,10 @@
     "@pob/rollup-esbuild": "5.0.0",
     "@pob/root": "14.2.0",
     "@types/node": "22.10.1",
-    "@vitest/coverage-v8": "2.1.6",
+    "@vitest/coverage-v8": "2.1.1",
     "check-package-dependencies": "7.2.0",
     "eslint": "9.14.0",
     "typescript": "5.7.2",
-    "vitest": "2.1.6"
+    "vitest": "2.1.1"
   }
 }
