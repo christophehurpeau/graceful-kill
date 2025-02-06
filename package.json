@@ -70,7 +70,7 @@
     "nightingale-logger": "^15.0.0"
   },
   "devDependencies": {
-    "@pob/commitlint-config": "8.0.1",
+    "@pob/commitlint-config": "9.1.0",
     "@pob/eslint-config": "58.1.0",
     "@pob/eslint-config-typescript": "58.1.0",
     "@pob/rollup-esbuild": "5.0.0",
