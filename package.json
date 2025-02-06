@@ -73,7 +73,7 @@
     "@pob/commitlint-config": "8.0.1",
     "@pob/eslint-config": "58.1.0",
     "@pob/eslint-config-typescript": "58.1.0",
-    "@pob/rollup-esbuild": "5.0.0",
+    "@pob/rollup-esbuild": "6.2.0",
     "@pob/root": "14.1.0",
     "@types/node": "22.13.1",
     "@vitest/coverage-v8": "2.1.8",
