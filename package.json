@@ -77,7 +77,7 @@
     "@pob/root": "16.7.0",
     "@types/node": "22.13.10",
     "@vitest/coverage-v8": "3.0.8",
-    "check-package-dependencies": "10.0.0",
+    "check-package-dependencies": "10.1.0",
     "eslint": "9.22.0",
     "typescript": "5.7.3",
     "vitest": "3.0.8"
