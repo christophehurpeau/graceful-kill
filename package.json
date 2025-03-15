@@ -74,10 +74,10 @@
     "@pob/eslint-config": "59.8.0",
     "@pob/eslint-config-typescript": "59.8.0",
     "@pob/rollup-esbuild": "6.4.0",
-    "@pob/root": "16.7.0",
+    "@pob/root": "16.8.0",
     "@types/node": "22.13.10",
     "@vitest/coverage-v8": "3.0.8",
-    "check-package-dependencies": "10.0.0",
+    "check-package-dependencies": "10.1.0",
     "eslint": "9.22.0",
     "typescript": "5.8.2",
     "vitest": "3.0.8"
