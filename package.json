@@ -39,7 +39,9 @@
     "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstallDev": "pob-root-postinstall",
+    "postinstall": "pob-root-postinstall",
+    "postpack": "pinst --enable",
+    "prepack": "pinst --disable",
     "test": "vitest",
     "test:coverage": "POB_VITEST_COVERAGE=json,text vitest run --coverage",
     "test:coverage:json": "POB_VITEST_COVERAGE=json vitest run --coverage",
@@ -79,6 +81,7 @@
     "@vitest/coverage-v8": "3.0.8",
     "check-package-dependencies": "10.2.0",
     "eslint": "9.25.1",
+    "pinst": "3.0.0",
     "typescript": "5.8.3",
     "vitest": "3.0.8"
   }
