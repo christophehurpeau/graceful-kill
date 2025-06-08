@@ -1,6 +1,6 @@
 import type { ChildProcess } from "node:child_process";
 import { expect, it, vi } from "vitest";
-import { gracefulKill } from ".";
+import { gracefulKill } from "./index.ts";
 
 const createProcessMock = (): ChildProcess => {
   return {
