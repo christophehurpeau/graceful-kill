@@ -1689,7 +1689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.15.30, @types/node@npm:>=18.0.0":
+"@types/node@npm:*, @types/node@npm:22.15.30, @types/node@npm:>=18.0.0, @types/node@npm:>=20.0.0":
   version: 22.15.30
   resolution: "@types/node@npm:22.15.30"
   dependencies:
@@ -4134,7 +4134,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:3.2.1"
     check-package-dependencies: "npm:10.2.1"
     eslint: "npm:9.28.0"
-    nightingale-logger: "npm:^15.0.0"
+    nightingale-logger: "npm:^16.0.0"
     typescript: "npm:5.8.3"
     vitest: "npm:3.2.1"
   languageName: unknown
@@ -5527,7 +5527,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:15.0.0, nightingale-logger@npm:^15.0.0":
+"nightingale-levels@npm:16.0.0":
+  version: 16.0.0
+  resolution: "nightingale-levels@npm:16.0.0"
+  checksum: 10c0/9dc872448a718e6b38f5213bddefe0b56dbf21237ca3382e4f13faec60a97e14e225b631ed1fc2545aa952da9a2f9480604252760fd843b05a059808efcea919
+  languageName: node
+  linkType: hard
+
+"nightingale-logger@npm:15.0.0":
   version: 15.0.0
   resolution: "nightingale-logger@npm:15.0.0"
   dependencies:
@@ -5538,12 +5545,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nightingale-logger@npm:^16.0.0":
+  version: 16.0.0
+  resolution: "nightingale-logger@npm:16.0.0"
+  dependencies:
+    "@types/node": "npm:>=20.0.0"
+    nightingale-levels: "npm:16.0.0"
+    nightingale-types: "npm:16.0.0"
+  checksum: 10c0/5ee0592bfe6a8ac66495c7b8c5a62f335924bbbf4fecbb53ca0bbc0541ef67ef5050442a5077b1d38e71350dca094ab5f0b3851146ed1ac5366ef02e150ab1ed
+  languageName: node
+  linkType: hard
+
 "nightingale-types@npm:15.0.0":
   version: 15.0.0
   resolution: "nightingale-types@npm:15.0.0"
   dependencies:
     nightingale-levels: "npm:15.0.0"
   checksum: 10c0/f3d7cc5b1e0f8a8d77f8fed50f25577dfa12c351363e8184e7d279936b27e729e0813cd4ffb683209175522b16bba178a55485c48a991370a48692f5d0f4f2a4
+  languageName: node
+  linkType: hard
+
+"nightingale-types@npm:16.0.0":
+  version: 16.0.0
+  resolution: "nightingale-types@npm:16.0.0"
+  dependencies:
+    nightingale-levels: "npm:16.0.0"
+  checksum: 10c0/3f98b8f22923ca8f9adc5e3af28da342a49c27b2f9d6c0f8c38d6c42eed24432cde84c93fbac055ce0abd30f5fbeae3fb2d109ca9716c77817feb15270cba93a
   languageName: node
   linkType: hard
 

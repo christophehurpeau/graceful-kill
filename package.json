@@ -67,7 +67,7 @@
   },
   "prettier": "@pob/root/prettier-config",
   "dependencies": {
-    "nightingale-logger": "^15.0.0"
+    "nightingale-logger": "^16.0.0"
   },
   "devDependencies": {
     "@pob/commitlint-config": "9.1.4",
