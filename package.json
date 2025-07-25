@@ -78,7 +78,7 @@
     "@types/node": "22.16.5",
     "@vitest/coverage-v8": "3.2.4",
     "check-package-dependencies": "10.4.0",
-    "eslint": "9.31.0",
+    "eslint": "9.32.0",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
   }
