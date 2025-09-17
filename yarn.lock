@@ -1286,12 +1286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=20.0.0":
-  version: 24.5.1
-  resolution: "@types/node@npm:24.5.1"
+"@types/node@npm:*, @types/node@npm:22.18.5, @types/node@npm:>=20.0.0":
+  version: 22.18.5
+  resolution: "@types/node@npm:22.18.5"
   dependencies:
-    undici-types: "npm:~7.12.0"
-  checksum: 10c0/5f0cb038be789b58170e616452ba1f8ebb85bf2fbce58a7e32b1eb08391f64f5e31a9cdbccefbfcd9e6d73b66b564b5e037a1d678ab20213559a32e1d7b6ce17
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/2a664e24f1b4bc7d49905cd2a416c2e2dbf8dd09d35d783922e447983817100fb637135a9d3fa1d98b790b48f214a68fda941afed56641c172bd2ce23b5cf57a
   languageName: node
   linkType: hard
 
@@ -1299,15 +1299,6 @@ __metadata:
   version: 14.18.30
   resolution: "@types/node@npm:14.18.30"
   checksum: 10c0/d3c800a4ea6124c4a055453f37fb45b3530d857c1852e76efb513515c329eedbd99a60531ba4cb066fe24361ead1cd2a70d8d092f50344427e1b2d91fd43f32e
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:22.18.5":
-  version: 22.18.5
-  resolution: "@types/node@npm:22.18.5"
-  dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10c0/2a664e24f1b4bc7d49905cd2a416c2e2dbf8dd09d35d783922e447983817100fb637135a9d3fa1d98b790b48f214a68fda941afed56641c172bd2ce23b5cf57a
   languageName: node
   linkType: hard
 
@@ -3969,10 +3960,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "ip@npm:2.0.1"
-  checksum: 10c0/cab8eb3e88d0abe23e4724829621ec4c4c5cb41a7f936a2e626c947128c1be16ed543448d42af7cca95379f9892bfcacc1ccd8d09bc7e8bea0e86d492ce33616
+"ip-address@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "ip-address@npm:10.0.1"
+  checksum: 10c0/1634d79dae18394004775cb6d699dc46b7c23df6d2083164025a2b15240c1164fccde53d0e08bd5ee4fc53913d033ab6b5e395a809ad4b956a940c446e948843
   languageName: node
   linkType: hard
 
@@ -6048,12 +6039,12 @@ __metadata:
   linkType: hard
 
 "socks@npm:^2.6.2":
-  version: 2.7.1
-  resolution: "socks@npm:2.7.1"
+  version: 2.8.7
+  resolution: "socks@npm:2.8.7"
   dependencies:
-    ip: "npm:^2.0.0"
+    ip-address: "npm:^10.0.1"
     smart-buffer: "npm:^4.2.0"
-  checksum: 10c0/43f69dbc9f34fc8220bc51c6eea1c39715ab3cfdb115d6e3285f6c7d1a603c5c75655668a5bbc11e3c7e2c99d60321fb8d7ab6f38cda6a215fadd0d6d0b52130
+  checksum: 10c0/2805a43a1c4bcf9ebf6e018268d87b32b32b06fbbc1f9282573583acc155860dc361500f89c73bfbb157caa1b4ac78059eac0ef15d1811eb0ca75e0bdadbc9d2
   languageName: node
   linkType: hard
 
@@ -6614,13 +6605,6 @@ __metadata:
   version: 6.21.0
   resolution: "undici-types@npm:6.21.0"
   checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~7.12.0":
-  version: 7.12.0
-  resolution: "undici-types@npm:7.12.0"
-  checksum: 10c0/326e455bbc0026db1d6b81c76a1cf10c63f7e2f9821db2e24fdc258f482814e5bfa8481f8910d07c68e305937c5c049610fdc441c5e8b7bb0daca7154fb8a306
   languageName: node
   linkType: hard
 
