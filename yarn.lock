@@ -3656,7 +3656,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:3.2.4"
     check-package-dependencies: "npm:10.5.0"
     eslint: "npm:9.38.0"
-    nightingale-logger: "npm:^16.0.0"
+    nightingale-logger: "npm:^17.0.0"
     pinst: "npm:3.0.0"
     typescript: "npm:5.9.3"
     vitest: "npm:3.2.4"
@@ -4892,7 +4892,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:16.0.0, nightingale-logger@npm:^16.0.0":
+"nightingale-levels@npm:17.0.0":
+  version: 17.0.0
+  resolution: "nightingale-levels@npm:17.0.0"
+  checksum: 10c0/a2f2768af9177b6cd5d3db902dfbefa2969623b7f2a68748fe3b3a77f516e7638840c245adf5c3ef230647e59ddcf7ca34286eb862b488a829bd6cd59bd6917a
+  languageName: node
+  linkType: hard
+
+"nightingale-logger@npm:16.0.0":
   version: 16.0.0
   resolution: "nightingale-logger@npm:16.0.0"
   dependencies:
@@ -4903,12 +4910,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nightingale-logger@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "nightingale-logger@npm:17.0.0"
+  dependencies:
+    "@types/node": "npm:>=20.0.0"
+    nightingale-levels: "npm:17.0.0"
+    nightingale-types: "npm:17.0.0"
+  checksum: 10c0/c26f0acadd8af3821abd6b9b9d3fc6c19e18521d1faa9ef1454b53a2c0f3b5deea819f9024cfd880b427598c531a2e0967a002b2aa8b102680e4ab8bb1fc8db8
+  languageName: node
+  linkType: hard
+
 "nightingale-types@npm:16.0.0":
   version: 16.0.0
   resolution: "nightingale-types@npm:16.0.0"
   dependencies:
     nightingale-levels: "npm:16.0.0"
   checksum: 10c0/3f98b8f22923ca8f9adc5e3af28da342a49c27b2f9d6c0f8c38d6c42eed24432cde84c93fbac055ce0abd30f5fbeae3fb2d109ca9716c77817feb15270cba93a
+  languageName: node
+  linkType: hard
+
+"nightingale-types@npm:17.0.0":
+  version: 17.0.0
+  resolution: "nightingale-types@npm:17.0.0"
+  dependencies:
+    nightingale-levels: "npm:17.0.0"
+  checksum: 10c0/9dd9b19a50ecb0656f47ddbcc05abf727f3da6a2ff163de24c56dfc1f29bc53d0ede4d1a7ce134851d2c232d61c373ea435c3cc0e19784cab2b2d432e7643771
   languageName: node
   linkType: hard
 
