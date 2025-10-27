@@ -1293,7 +1293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=20.0.0, @types/node@npm:^22.0.0":
+"@types/node@npm:*, @types/node@npm:22.18.12, @types/node@npm:>=20.0.0, @types/node@npm:^22.0.0":
   version: 22.18.12
   resolution: "@types/node@npm:22.18.12"
   dependencies:
@@ -1306,15 +1306,6 @@ __metadata:
   version: 14.18.30
   resolution: "@types/node@npm:14.18.30"
   checksum: 10c0/d3c800a4ea6124c4a055453f37fb45b3530d857c1852e76efb513515c329eedbd99a60531ba4cb066fe24361ead1cd2a70d8d092f50344427e1b2d91fd43f32e
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:22.18.5":
-  version: 22.18.5
-  resolution: "@types/node@npm:22.18.5"
-  dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10c0/2a664e24f1b4bc7d49905cd2a416c2e2dbf8dd09d35d783922e447983817100fb637135a9d3fa1d98b790b48f214a68fda941afed56641c172bd2ce23b5cf57a
   languageName: node
   linkType: hard
 
@@ -3562,7 +3553,7 @@ __metadata:
     "@pob/eslint-config-typescript": "npm:62.0.0"
     "@pob/rollup-esbuild": "npm:7.3.0"
     "@pob/root": "npm:19.4.0"
-    "@types/node": "npm:22.18.5"
+    "@types/node": "npm:22.18.12"
     "@vitest/coverage-v8": "npm:4.0.2"
     check-package-dependencies: "npm:10.5.0"
     eslint: "npm:9.38.0"
