@@ -10,7 +10,7 @@
   "type": "module",
   "packageManager": "yarn@4.9.4",
   "engines": {
-    "node": ">=22.18.0"
+    "node": ">=22.21.1"
   },
   "sideEffects": false,
   "main": "./dist/index-node.mjs",
