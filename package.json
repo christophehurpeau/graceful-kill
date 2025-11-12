@@ -76,7 +76,7 @@
     "@pob/eslint-config-typescript": "62.0.0",
     "@pob/rollup-esbuild": "7.3.2",
     "@pob/root": "19.5.0",
-    "@types/node": "22.18.13",
+    "@types/node": "22.19.1",
     "@vitest/coverage-v8": "4.0.7",
     "check-package-dependencies": "10.5.0",
     "eslint": "9.39.1",
