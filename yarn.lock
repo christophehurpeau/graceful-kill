@@ -1293,12 +1293,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.18.13, @types/node@npm:>=20.0.0, @types/node@npm:^22.0.0":
-  version: 22.18.13
-  resolution: "@types/node@npm:22.18.13"
+"@types/node@npm:*, @types/node@npm:>=20.0.0, @types/node@npm:>=22.19.1":
+  version: 24.10.1
+  resolution: "@types/node@npm:24.10.1"
   dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10c0/4d97b447274f6e566fc5afb464146e9db77b5892c318364eb927b13441e6dbf9fe0ec9d1ed2cb6b5e7e85f5154a5ff52913d2cfc4b952bcf19fb0ddaaff5e533
+    undici-types: "npm:~7.16.0"
+  checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
   languageName: node
   linkType: hard
 
@@ -1306,6 +1306,15 @@ __metadata:
   version: 14.18.30
   resolution: "@types/node@npm:14.18.30"
   checksum: 10c0/d3c800a4ea6124c4a055453f37fb45b3530d857c1852e76efb513515c329eedbd99a60531ba4cb066fe24361ead1cd2a70d8d092f50344427e1b2d91fd43f32e
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:22.18.13, @types/node@npm:^22.0.0":
+  version: 22.18.13
+  resolution: "@types/node@npm:22.18.13"
+  dependencies:
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/4d97b447274f6e566fc5afb464146e9db77b5892c318364eb927b13441e6dbf9fe0ec9d1ed2cb6b5e7e85f5154a5ff52913d2cfc4b952bcf19fb0ddaaff5e533
   languageName: node
   linkType: hard
 
@@ -3550,7 +3559,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:4.0.7"
     check-package-dependencies: "npm:10.5.0"
     eslint: "npm:9.39.1"
-    nightingale-logger: "npm:^17.0.0"
+    nightingale-logger: "npm:^18.1.0"
     pinst: "npm:3.0.0"
     typescript: "npm:5.9.3"
     vitest: "npm:4.0.7"
@@ -4766,7 +4775,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:17.0.0, nightingale-logger@npm:^17.0.0":
+"nightingale-levels@npm:18.0.0":
+  version: 18.0.0
+  resolution: "nightingale-levels@npm:18.0.0"
+  checksum: 10c0/d89b08eb6e37744e81b57898d28e14f864280d6293491821e0fc2769f11cecaad5d6a994ca69c94c700e65d56418bafa7824210c73e7c28b4fcfafb09e721902
+  languageName: node
+  linkType: hard
+
+"nightingale-logger@npm:17.0.0":
   version: 17.0.0
   resolution: "nightingale-logger@npm:17.0.0"
   dependencies:
@@ -4777,12 +4793,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nightingale-logger@npm:^18.1.0":
+  version: 18.1.0
+  resolution: "nightingale-logger@npm:18.1.0"
+  dependencies:
+    "@types/node": "npm:>=22.19.1"
+    nightingale-levels: "npm:18.0.0"
+    nightingale-types: "npm:18.0.0"
+  checksum: 10c0/5f3e8c7b14f261d1f5dcf1476bbe63529b01fbef38d2f5b4fd9c010c3e8ca713cfd70dc91725ddae9d8a61f1891676ecaa5a5b8ee921ac838728bb046793e236
+  languageName: node
+  linkType: hard
+
 "nightingale-types@npm:17.0.0":
   version: 17.0.0
   resolution: "nightingale-types@npm:17.0.0"
   dependencies:
     nightingale-levels: "npm:17.0.0"
   checksum: 10c0/9dd9b19a50ecb0656f47ddbcc05abf727f3da6a2ff163de24c56dfc1f29bc53d0ede4d1a7ce134851d2c232d61c373ea435c3cc0e19784cab2b2d432e7643771
+  languageName: node
+  linkType: hard
+
+"nightingale-types@npm:18.0.0":
+  version: 18.0.0
+  resolution: "nightingale-types@npm:18.0.0"
+  dependencies:
+    nightingale-levels: "npm:18.0.0"
+  checksum: 10c0/5b7683b1c80e606ac08c96ebcbaba9b74d9412e469cc76a4c25a9e5988c4fba3f5d50423ff21f550edc4b2e5ac5bca16e214d8ada069ddbba2d739e24e084752
   languageName: node
   linkType: hard
 
@@ -6349,6 +6385,13 @@ __metadata:
   version: 6.21.0
   resolution: "undici-types@npm:6.21.0"
   checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~7.16.0":
+  version: 7.16.0
+  resolution: "undici-types@npm:7.16.0"
+  checksum: 10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a
   languageName: node
   linkType: hard
 
