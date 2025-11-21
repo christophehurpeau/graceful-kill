@@ -77,11 +77,11 @@
     "@pob/rollup-esbuild": "7.4.0",
     "@pob/root": "19.5.0",
     "@types/node": "22.18.13",
-    "@vitest/coverage-v8": "4.0.7",
+    "@vitest/coverage-v8": "4.0.10",
     "check-package-dependencies": "10.5.0",
     "eslint": "9.39.1",
     "pinst": "3.0.0",
     "typescript": "5.9.3",
-    "vitest": "4.0.7"
+    "vitest": "4.0.10"
   }
 }
