@@ -3,15 +3,18 @@
   "version": "9.0.0",
   "description": "gracefully kills a spawn process",
   "keywords": [],
-  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
-  "license": "ISC",
-  "repository": "https://github.com/christophehurpeau/graceful-kill.git",
   "homepage": "https://github.com/christophehurpeau/graceful-kill",
-  "type": "module",
-  "packageManager": "yarn@4.10.3",
-  "engines": {
-    "node": ">=22.18.0"
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/graceful-kill/issues"
   },
+  "license": "ISC",
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
+  "repository": "https://github.com/christophehurpeau/graceful-kill.git",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "type": "module",
   "sideEffects": false,
   "main": "./dist/index-node.mjs",
   "types": "./dist/definitions/index.d.ts",
@@ -24,21 +27,17 @@
       }
     }
   },
-  "files": [
-    "src",
-    "dist"
-  ],
   "scripts": {
-    "build": "yarn clean:build && rollup --config rollup.config.mjs && yarn run build:definitions",
+    "build": "yarn run clean:build && rollup --config rollup.config.mjs && yarn run build:definitions",
     "build:definitions": "tsc -p tsconfig.json",
     "checks": "node scripts/check-package.js",
     "clean": "yarn clean:build",
     "clean:build": "pob-esbuild-clean-out dist",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check .",
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
-    "lint": "yarn run lint:prettier && tsc && yarn run lint:eslint",
+    "lint": "yarn run format && tsc && yarn run lint:eslint",
     "lint:eslint": "eslint --quiet .",
-    "lint:prettier": "pob-root-prettier --check .",
-    "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall",
     "postpack": "pinst --enable",
     "prepack": "pinst --disable",
@@ -46,13 +45,34 @@
     "test:coverage": "TZ=UTC POB_VITEST_COVERAGE=json,text vitest run --coverage",
     "test:coverage:json": "TZ=UTC POB_VITEST_COVERAGE=json vitest run --coverage",
     "test:watch": "TZ=UTC vitest --watch",
+    "tsc": "tsc",
     "watch": "yarn clean:build && rollup --config rollup.config.mjs --watch"
+  },
+  "dependencies": {
+    "nightingale-logger": "^17.0.0"
+  },
+  "devDependencies": {
+    "@pob/eslint-config": "65.5.0",
+    "@pob/rollup-esbuild": "9.1.1",
+    "@pob/root": "24.3.0",
+    "@types/node": "22.18.13",
+    "@vitest/coverage-v8": "4.1.8",
+    "check-package-dependencies": "11.1.1",
+    "eslint": "10.4.0",
+    "pinst": "3.0.0",
+    "typescript": "6.0.3",
+    "vite": "8.0.16",
+    "vitest": "4.1.8"
   },
   "commitlint": {
     "extends": [
       "@pob/root/commitlint-config"
     ]
   },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "yarn@4.16.0",
   "pob": {
     "bundler": "rollup-esbuild",
     "entries": [
@@ -66,22 +86,5 @@
       }
     ],
     "typescript": true
-  },
-  "prettier": "@pob/root/prettier-config",
-  "dependencies": {
-    "nightingale-logger": "^17.0.0"
-  },
-  "devDependencies": {
-    "@pob/eslint-config": "62.0.0",
-    "@pob/eslint-config-typescript": "62.0.0",
-    "@pob/rollup-esbuild": "7.4.2",
-    "@pob/root": "19.5.0",
-    "@types/node": "22.18.13",
-    "@vitest/coverage-v8": "4.0.7",
-    "check-package-dependencies": "10.5.0",
-    "eslint": "9.39.4",
-    "pinst": "3.0.0",
-    "typescript": "5.9.3",
-    "vitest": "4.0.7"
   }
 }
