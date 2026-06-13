@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.0](https://github.com/christophehurpeau/graceful-kill/compare/v9.0.0...v9.1.0) (2026-06-13)
+
+### Features
+
+* **deps:** update dependency nightingale-logger to v17 ([#920](https://github.com/christophehurpeau/graceful-kill/issues/920))
+
 ## [9.0.0](https://github.com/christophehurpeau/graceful-kill/compare/v8.1.0...v9.0.0) (2025-09-17)
 
 ### ⚠ BREAKING CHANGES

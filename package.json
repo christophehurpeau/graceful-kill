@@ -1,6 +1,6 @@
 {
   "name": "graceful-kill",
-  "version": "9.0.0",
+  "version": "9.1.0",
   "description": "gracefully kills a spawn process",
   "keywords": [],
   "homepage": "https://github.com/christophehurpeau/graceful-kill",
