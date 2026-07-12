@@ -1238,12 +1238,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:>=20.0.0, @types/node@npm:>=22.19.1":
-  version: 25.9.2
-  resolution: "@types/node@npm:25.9.2"
+"@types/node@npm:>=22.0.0, @types/node@npm:>=22.19.1":
+  version: 26.1.1
+  resolution: "@types/node@npm:26.1.1"
   dependencies:
-    undici-types: "npm:>=7.24.0 <7.24.7"
-  checksum: 10c0/f14c0d56361febb985eccc45cf0834ee6e2f07c4389a636f3e1a55ebde320077a80bface18c9afd3092f5fa295925502c1a9d55f805efa813f634aa9c941cbac
+    undici-types: "npm:~8.3.0"
+  checksum: 10c0/25ac5093195736dd074d5027adbba85617bc951d5a41506ebd3b9073048acb7233613f3822d5f9b9447f9c0841c91f6387c46283916767e3ef79f23917452c46
   languageName: node
   linkType: hard
 
@@ -3242,7 +3242,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:4.1.8"
     check-package-dependencies: "npm:11.1.1"
     eslint: "npm:10.4.0"
-    nightingale-logger: "npm:^17.0.0"
+    nightingale-logger: "npm:^18.2.0"
     pinst: "npm:3.0.0"
     typescript: "npm:6.0.3"
     vite: "npm:8.0.16"
@@ -4104,17 +4104,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-levels@npm:17.0.0":
-  version: 17.0.0
-  resolution: "nightingale-levels@npm:17.0.0"
-  checksum: 10c0/a2f2768af9177b6cd5d3db902dfbefa2969623b7f2a68748fe3b3a77f516e7638840c245adf5c3ef230647e59ddcf7ca34286eb862b488a829bd6cd59bd6917a
-  languageName: node
-  linkType: hard
-
 "nightingale-levels@npm:18.0.0":
   version: 18.0.0
   resolution: "nightingale-levels@npm:18.0.0"
   checksum: 10c0/d89b08eb6e37744e81b57898d28e14f864280d6293491821e0fc2769f11cecaad5d6a994ca69c94c700e65d56418bafa7824210c73e7c28b4fcfafb09e721902
+  languageName: node
+  linkType: hard
+
+"nightingale-levels@npm:18.2.0":
+  version: 18.2.0
+  resolution: "nightingale-levels@npm:18.2.0"
+  checksum: 10c0/cd93481242012b072d392773640db703a3b0aa00fe45d76299247598ba654fc3750d5b4605031e8260b5c24d222d1c403d892da3367a0fe5668d0fe8c42f3cc8
   languageName: node
   linkType: hard
 
@@ -4129,23 +4129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nightingale-logger@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "nightingale-logger@npm:17.0.0"
+"nightingale-logger@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "nightingale-logger@npm:18.2.0"
   dependencies:
-    "@types/node": "npm:>=20.0.0"
-    nightingale-levels: "npm:17.0.0"
-    nightingale-types: "npm:17.0.0"
-  checksum: 10c0/c26f0acadd8af3821abd6b9b9d3fc6c19e18521d1faa9ef1454b53a2c0f3b5deea819f9024cfd880b427598c531a2e0967a002b2aa8b102680e4ab8bb1fc8db8
-  languageName: node
-  linkType: hard
-
-"nightingale-types@npm:17.0.0":
-  version: 17.0.0
-  resolution: "nightingale-types@npm:17.0.0"
-  dependencies:
-    nightingale-levels: "npm:17.0.0"
-  checksum: 10c0/9dd9b19a50ecb0656f47ddbcc05abf727f3da6a2ff163de24c56dfc1f29bc53d0ede4d1a7ce134851d2c232d61c373ea435c3cc0e19784cab2b2d432e7643771
+    "@types/node": "npm:>=22.0.0"
+    nightingale-levels: "npm:18.2.0"
+    nightingale-types: "npm:18.2.0"
+  checksum: 10c0/5e493d1d44836e61ecc576d157a8ee042a3a580f8d83e26a32fca59c2b664aedb0f99b4d925fd6dcec43c8d1c8eb0bb5c54d13b584fb232132faa06e3e1f979a
   languageName: node
   linkType: hard
 
@@ -4155,6 +4146,15 @@ __metadata:
   dependencies:
     nightingale-levels: "npm:18.0.0"
   checksum: 10c0/5b7683b1c80e606ac08c96ebcbaba9b74d9412e469cc76a4c25a9e5988c4fba3f5d50423ff21f550edc4b2e5ac5bca16e214d8ada069ddbba2d739e24e084752
+  languageName: node
+  linkType: hard
+
+"nightingale-types@npm:18.2.0":
+  version: 18.2.0
+  resolution: "nightingale-types@npm:18.2.0"
+  dependencies:
+    nightingale-levels: "npm:18.2.0"
+  checksum: 10c0/2ee076ad4c1da981853098039e399e23db934d9e57a65284c66259f1eb98f07b5d140c15df00487ba35330c2975d2655504dfd787197bd13666e4f24cdbe2721
   languageName: node
   linkType: hard
 
@@ -5469,17 +5469,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:>=7.24.0 <7.24.7":
-  version: 7.24.6
-  resolution: "undici-types@npm:7.24.6"
-  checksum: 10c0/d9cd8befb643ac904615c280a095ba4240531f6bb4a5e75a22a7483630ca8d3f1016d2ab6ace6ceda1f63b3a2db2fe037fafe121d6917a0187573aa548ff78ca
-  languageName: node
-  linkType: hard
-
 "undici-types@npm:~6.21.0":
   version: 6.21.0
   resolution: "undici-types@npm:6.21.0"
   checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~8.3.0":
+  version: 8.3.0
+  resolution: "undici-types@npm:8.3.0"
+  checksum: 10c0/c8aa7e2fbebfce519654dafadc0ece59be888d2ccaf180fb4495da875e7b536d2456345c384069c7e6f3e9c9ab7435f074957da306f142343eee86ff8048855a
   languageName: node
   linkType: hard
 
