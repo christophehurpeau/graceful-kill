@@ -13,12 +13,12 @@
       "testing": {
         "codecov": false,
         "runner": "vitest"
-      }
+      },
+      "e2e": false
     },
     "project": {
       "type": "lib",
-      "yarnNodeLinker": "node-modules",
-      "packageManager": "yarn",
+      "packageManager": "pnpm",
       "ci": true
     }
   }
