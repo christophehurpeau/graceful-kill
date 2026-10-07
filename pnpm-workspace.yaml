@@ -11,7 +11,5 @@ minimumReleaseAgeExclude:
   - alouette-icons
   - nightingale
   - nightingale-logger
-  # Renovate security update: vitest@4.1.11
-  - vitest@4.1.11
 nodeLinker: hoisted
 savePrefix: ^
