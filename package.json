@@ -50,13 +50,13 @@
     "nightingale-logger": "^18.2.0"
   },
   "devDependencies": {
-    "@pob/eslint-config": "68.0.0",
-    "@pob/rollup-esbuild": "11.1.0",
+    "@pob/eslint-config": "68.3.0",
+    "@pob/rollup-esbuild": "11.3.0",
     "@pob/root": "28.6.0",
     "@types/node": "22.18.13",
     "@typescript/native": "npm:typescript@7.0.2",
     "@vitest/coverage-v8": "5.0.5",
-    "eslint": "10.13.0",
+    "eslint": "10.14.0",
     "tsrs": "0.18.0-ts7.1.0-dev.20260929",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "vite": "8.3.5",
@@ -75,7 +75,7 @@
     }
   },
   "engines": {
-    "node": ">=22.18.0"
+    "node": "^22.18.0 || >=24.14.1"
   },
   "pob": {
     "bundler": "rollup-esbuild",
