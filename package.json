@@ -50,7 +50,7 @@
     "nightingale-logger": "^18.2.0"
   },
   "devDependencies": {
-    "@pob/eslint-config": "68.3.0",
+    "@pob/eslint-config": "68.4.0",
     "@pob/rollup-esbuild": "11.3.0",
     "@pob/root": "28.6.1",
     "@types/node": "22.18.13",
