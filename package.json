@@ -55,12 +55,12 @@
     "@pob/root": "28.6.1",
     "@types/node": "22.18.13",
     "@typescript/native": "npm:typescript@7.0.2",
-    "@vitest/coverage-v8": "5.0.5",
+    "@vitest/coverage-v8": "5.1.0",
     "eslint": "10.14.0",
     "tsrs": "0.18.0-ts7.1.0-dev.20260929",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "vite": "8.3.6",
-    "vitest": "5.0.5"
+    "vitest": "5.1.0"
   },
   "commitlint": {
     "extends": [
